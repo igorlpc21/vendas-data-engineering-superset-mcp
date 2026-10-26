@@ -1,0 +1,24 @@
+{
+  "task": "Review the sales data engineering portfolio project and propose a professional GitHub structure, a native Apache Superset MCP setup guide for Codex, and a technical LinkedIn article in Brazilian Portuguese. Do not change live Superset objects, databases, or publish anything.",
+  "constraints": [
+    "Preserve the existing educational notebooks.",
+    "Never disclose credentials.",
+    "Distinguish saved configuration from verified query results and rendered visuals.",
+    "Do not invent MCP support for fonts, metric sorting or monthly grouping.",
+    "Produce independent plans in Brazilian Portuguese; planners must not ask questions.",
+    "Audience: recruiters reviewing a data engineering portfolio.",
+    "Scope: full project including pipeline, Superset, MCP, documentation and publication drafts."
+  ],
+  "repo_context": {
+    "root": ".",
+    "paths": [
+      "gerar_dados.py",
+      "docker-compose.yml",
+      "01_analise_exploratoria.ipynb",
+      "02_camada_bronze.ipynb",
+      "03_camada_silver.ipynb",
+      "04_camada_gold.ipynb"
+    ],
+    "notes": "Synthetic CSV: 1000 sales, revenue 2318923.25 BRL, 3074 items, 21 months from January 2025 to September 2026. Original local dashboard 10 and dataset 22 are instance-specific. Observed MCP schema did not expose Big Number font sizes or bar metric sorting. Do not read .env or private configuration. This task spec has no agents override; use the locally configured council."
+  }
+}

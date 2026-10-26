@@ -1,0 +1,48 @@
+name: Validar projeto
+on: [push, pull_request]
+jobs:
+  local-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/validate_data.py
+      - run: python -m unittest discover -s tests -v
+      - name: Validar estrutura e limpeza dos notebooks
+        run: python scripts/check_project.py
+      - name: Validar Compose sem iniciar containers
+        env:
+          POSTGRES_PASSWORD: ci-placeholder-only
+          SUPERSET_ADMIN_PASSWORD: ci-placeholder-only
+          SUPERSET_SECRET_KEY: ci-placeholder-not-a-runtime-secret
+        run: |
+          docker compose -f docker-compose.yml config --quiet
+          docker compose -p vendas-demo -f docker-compose.demo.yml config --quiet
+  warehouse-integration:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: ci-disposable-only
+          POSTGRES_DB: db_vendas
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres -d db_vendas"
+          --health-interval 5s --health-timeout 5s --health-retries 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'psycopg2-binary>=2.9.9,<3'
+      - name: Validar carga inicial e reexecução
+        env:
+          POSTGRES_PASSWORD: ci-disposable-only
+          POSTGRES_PORT: '5432'
+        run: |
+          python scripts/run_pipeline.py --full-refresh
+          python scripts/run_pipeline.py --full-refresh

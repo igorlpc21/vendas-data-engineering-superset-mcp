@@ -1,0 +1,1001 @@
+﻿id_venda,data_venda,cliente,produto,categoria,regiao,quantidade,valor_unitario,desconto_percentual,valor_total,forma_pagamento
+1,2025-10-09,Daniel Lima,Mesa de Jantar,Móveis,Nordeste,1,1800.00,15,1530.00,Cartão de Crédito
+2,2026-08-28,Gabriela Alves,Mesa de Jantar,Móveis,Norte,5,1800.00,0,9000.00,PIX
+3,2026-06-02,João Oliveira,Mesa de Jantar,Móveis,Norte,2,1800.00,0,3600.00,Boleto
+4,2025-08-14,Henrique Melo,Guarda-Roupa,Móveis,Sul,5,2100.00,5,9975.00,Cartão de Débito
+5,2026-03-09,Felipe Santos,Sofá 3 Lugares,Móveis,Centro-Oeste,2,2450.00,15,4165.00,Cartão de Crédito
+6,2025-04-05,Gabriela Alves,Guarda-Roupa,Móveis,Norte,3,2100.00,0,6300.00,Cartão de Débito
+7,2025-02-14,Marcos Pereira,Pendente LED,Iluminação,Sudeste,5,390.00,0,1950.00,Boleto
+8,2026-07-20,Eduarda Rocha,Mesa de Jantar,Móveis,Sul,4,1800.00,0,7200.00,Cartão de Débito
+9,2025-03-13,Ana Silva,Jogo de Almofadas,Têxteis,Nordeste,2,120.00,15,204.00,Cartão de Débito
+10,2026-01-25,Eduarda Rocha,Mesa de Jantar,Móveis,Sudeste,2,1800.00,0,3600.00,Cartão de Débito
+11,2025-08-03,Larissa Ribeiro,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,0,1260.00,PIX
+12,2025-09-08,Carla Souza,Jogo de Almofadas,Têxteis,Sudeste,2,120.00,10,216.00,Dinheiro
+13,2025-11-29,Paulo Ferreira,Luminária de Mesa,Iluminação,Norte,5,185.00,0,925.00,Cartão de Crédito
+14,2025-10-02,Bruno Costa,Sofá 3 Lugares,Móveis,Nordeste,3,2450.00,5,6982.50,Boleto
+15,2026-05-27,Gabriela Alves,Pendente LED,Iluminação,Sudeste,2,390.00,15,663.00,Cartão de Crédito
+16,2026-07-29,Isabela Martins,Luminária de Mesa,Iluminação,Centro-Oeste,2,185.00,0,370.00,Boleto
+17,2026-01-06,Daniel Lima,Tapete Decorativo,Decoração,Nordeste,5,320.00,5,1520.00,Boleto
+18,2025-04-23,Carla Souza,Espelho Redondo,Decoração,Nordeste,1,260.00,0,260.00,Dinheiro
+19,2026-01-26,João Oliveira,Jogo de Almofadas,Têxteis,Sudeste,1,120.00,5,114.00,Boleto
+20,2025-04-28,Larissa Ribeiro,Luminária de Mesa,Iluminação,Sul,5,185.00,0,925.00,Cartão de Débito
+21,2026-03-22,Carla Souza,Pendente LED,Iluminação,Sudeste,1,390.00,0,390.00,PIX
+22,2026-06-04,Renata Araújo,Luminária de Mesa,Iluminação,Norte,5,185.00,0,925.00,Cartão de Débito
+23,2025-06-06,Felipe Santos,Cortina Blackout,Têxteis,Nordeste,5,230.00,0,1150.00,Boleto
+24,2025-11-28,Henrique Melo,Cortina Blackout,Têxteis,Norte,1,230.00,10,207.00,PIX
+25,2025-03-01,Daniel Lima,Pendente LED,Iluminação,Sul,3,390.00,0,1170.00,PIX
+26,2026-06-30,Natália Gomes,Mesa de Jantar,Móveis,Nordeste,4,1800.00,0,7200.00,Cartão de Crédito
+27,2025-09-29,Isabela Martins,Espelho Redondo,Decoração,Sul,5,260.00,0,1300.00,Dinheiro
+28,2025-07-25,Marcos Pereira,Guarda-Roupa,Móveis,Centro-Oeste,5,2100.00,15,8925.00,Dinheiro
+29,2026-04-08,Bruno Costa,Pendente LED,Iluminação,Nordeste,4,390.00,10,1404.00,Cartão de Crédito
+30,2026-08-26,Isabela Martins,Mesa de Jantar,Móveis,Nordeste,3,1800.00,0,5400.00,Boleto
+31,2025-03-02,Daniel Lima,Guarda-Roupa,Móveis,Norte,1,2100.00,0,2100.00,PIX
+32,2025-09-01,Eduarda Rocha,Pendente LED,Iluminação,Sudeste,1,390.00,10,351.00,Cartão de Crédito
+33,2026-08-08,João Oliveira,Cortina Blackout,Têxteis,Sudeste,2,230.00,15,391.00,Cartão de Crédito
+34,2025-04-07,Bruno Costa,Espelho Redondo,Decoração,Sudeste,4,260.00,0,1040.00,Cartão de Débito
+35,2025-02-25,Larissa Ribeiro,Tapete Decorativo,Decoração,Norte,4,320.00,5,1216.00,PIX
+36,2025-09-12,Daniel Lima,Tapete Decorativo,Decoração,Nordeste,3,320.00,0,960.00,Boleto
+37,2025-07-07,Eduarda Rocha,Espelho Redondo,Decoração,Sudeste,2,260.00,5,494.00,Cartão de Crédito
+38,2025-04-11,Ana Silva,Mesa de Jantar,Móveis,Sul,4,1800.00,10,6480.00,PIX
+39,2026-02-21,Henrique Melo,Mesa de Jantar,Móveis,Sudeste,2,1800.00,0,3600.00,Cartão de Crédito
+40,2026-01-24,Ana Silva,Tapete Decorativo,Decoração,Sudeste,1,320.00,0,320.00,Cartão de Débito
+41,2026-07-24,Larissa Ribeiro,Espelho Redondo,Decoração,Sudeste,3,260.00,5,741.00,Cartão de Crédito
+42,2025-03-01,João Oliveira,Guarda-Roupa,Móveis,Sul,3,2100.00,0,6300.00,PIX
+43,2026-08-22,Henrique Melo,Pendente LED,Iluminação,Sul,1,390.00,0,390.00,Boleto
+44,2025-03-24,Paulo Ferreira,Cadeira Estofada,Móveis,Nordeste,1,420.00,10,378.00,PIX
+45,2025-08-29,Gabriela Alves,Jogo de Almofadas,Têxteis,Norte,1,120.00,15,102.00,Boleto
+46,2025-02-10,João Oliveira,Guarda-Roupa,Móveis,Norte,5,2100.00,10,9450.00,Dinheiro
+47,2025-11-20,Renata Araújo,Jogo de Almofadas,Têxteis,Centro-Oeste,5,120.00,10,540.00,Cartão de Crédito
+48,2026-02-10,Carla Souza,Pendente LED,Iluminação,Centro-Oeste,2,390.00,0,780.00,Dinheiro
+49,2026-04-15,João Oliveira,Pendente LED,Iluminação,Sul,1,390.00,0,390.00,PIX
+50,2026-06-03,Eduarda Rocha,Mesa de Jantar,Móveis,Nordeste,5,1800.00,0,9000.00,Cartão de Débito
+51,2025-10-19,Carla Souza,Mesa de Jantar,Móveis,Sudeste,2,1800.00,0,3600.00,Boleto
+52,2026-06-26,Ana Silva,Luminária de Mesa,Iluminação,Sul,5,185.00,15,786.25,Cartão de Débito
+53,2025-04-29,Renata Araújo,Mesa de Jantar,Móveis,Norte,2,1800.00,0,3600.00,Boleto
+54,2026-09-12,Daniel Lima,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,0,1260.00,Cartão de Crédito
+55,2025-09-15,Renata Araújo,Luminária de Mesa,Iluminação,Norte,5,185.00,5,878.75,PIX
+56,2025-01-04,Felipe Santos,Tapete Decorativo,Decoração,Nordeste,3,320.00,0,960.00,Cartão de Débito
+57,2026-03-14,Isabela Martins,Cadeira Estofada,Móveis,Norte,4,420.00,10,1512.00,PIX
+58,2025-02-06,Paulo Ferreira,Mesa de Jantar,Móveis,Centro-Oeste,2,1800.00,10,3240.00,Boleto
+59,2025-05-11,Ana Silva,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,5,437.00,Cartão de Débito
+60,2025-09-13,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Norte,3,2450.00,0,7350.00,Cartão de Débito
+61,2025-06-08,Renata Araújo,Cortina Blackout,Têxteis,Nordeste,4,230.00,10,828.00,Cartão de Crédito
+62,2025-07-03,Marcos Pereira,Cadeira Estofada,Móveis,Centro-Oeste,4,420.00,0,1680.00,Dinheiro
+63,2025-04-21,Gabriela Alves,Guarda-Roupa,Móveis,Norte,3,2100.00,0,6300.00,Dinheiro
+64,2025-12-25,Eduarda Rocha,Guarda-Roupa,Móveis,Nordeste,2,2100.00,5,3990.00,Cartão de Crédito
+65,2025-12-03,Eduarda Rocha,Sofá 3 Lugares,Móveis,Norte,2,2450.00,5,4655.00,Cartão de Débito
+66,2026-07-04,Felipe Santos,Pendente LED,Iluminação,Norte,5,390.00,5,1852.50,PIX
+67,2025-09-29,Ana Silva,Luminária de Mesa,Iluminação,Norte,2,185.00,10,333.00,Boleto
+68,2025-11-18,Gabriela Alves,Tapete Decorativo,Decoração,Sul,3,320.00,15,816.00,Boleto
+69,2025-07-14,Eduarda Rocha,Mesa de Jantar,Móveis,Norte,4,1800.00,10,6480.00,Dinheiro
+70,2025-07-21,Felipe Santos,Sofá 3 Lugares,Móveis,Sudeste,5,2450.00,10,11025.00,PIX
+71,2025-05-08,Marcos Pereira,Pendente LED,Iluminação,Centro-Oeste,5,390.00,0,1950.00,Boleto
+72,2026-02-17,Marcos Pereira,Luminária de Mesa,Iluminação,Centro-Oeste,4,185.00,0,740.00,Boleto
+73,2026-01-24,Larissa Ribeiro,Cadeira Estofada,Móveis,Nordeste,2,420.00,5,798.00,Boleto
+74,2026-07-16,Paulo Ferreira,Jogo de Almofadas,Têxteis,Norte,3,120.00,5,342.00,Cartão de Débito
+75,2026-08-17,João Oliveira,Luminária de Mesa,Iluminação,Centro-Oeste,2,185.00,5,351.50,Dinheiro
+76,2025-08-07,Isabela Martins,Espelho Redondo,Decoração,Sudeste,4,260.00,15,884.00,Cartão de Crédito
+77,2026-09-27,Felipe Santos,Mesa de Jantar,Móveis,Norte,3,1800.00,10,4860.00,Cartão de Crédito
+78,2025-05-31,Ana Silva,Luminária de Mesa,Iluminação,Norte,2,185.00,0,370.00,Cartão de Crédito
+79,2026-04-12,Gabriela Alves,Espelho Redondo,Decoração,Sul,5,260.00,0,1300.00,Cartão de Crédito
+80,2025-09-07,Carla Souza,Tapete Decorativo,Decoração,Norte,4,320.00,5,1216.00,PIX
+81,2026-06-15,Henrique Melo,Tapete Decorativo,Decoração,Norte,2,320.00,0,640.00,Boleto
+82,2025-05-17,Natália Gomes,Guarda-Roupa,Móveis,Sudeste,1,2100.00,5,1995.00,Boleto
+83,2026-03-30,João Oliveira,Cortina Blackout,Têxteis,Sul,5,230.00,0,1150.00,Dinheiro
+84,2026-05-02,Henrique Melo,Cortina Blackout,Têxteis,Centro-Oeste,4,230.00,0,920.00,Cartão de Crédito
+85,2025-09-02,Eduarda Rocha,Luminária de Mesa,Iluminação,Sudeste,5,185.00,5,878.75,PIX
+86,2025-12-10,Felipe Santos,Luminária de Mesa,Iluminação,Sul,2,185.00,0,370.00,PIX
+87,2026-01-28,Marcos Pereira,Cadeira Estofada,Móveis,Nordeste,2,420.00,0,840.00,Cartão de Crédito
+88,2025-12-05,Isabela Martins,Mesa de Jantar,Móveis,Sudeste,4,1800.00,5,6840.00,Dinheiro
+89,2026-02-03,Renata Araújo,Sofá 3 Lugares,Móveis,Sul,2,2450.00,5,4655.00,PIX
+90,2025-01-07,Felipe Santos,Jogo de Almofadas,Têxteis,Centro-Oeste,4,120.00,5,456.00,Dinheiro
+91,2026-07-14,Natália Gomes,Tapete Decorativo,Decoração,Sul,5,320.00,15,1360.00,Cartão de Crédito
+92,2026-03-23,Henrique Melo,Espelho Redondo,Decoração,Norte,2,260.00,0,520.00,Dinheiro
+93,2025-06-19,Paulo Ferreira,Pendente LED,Iluminação,Sudeste,4,390.00,15,1326.00,Cartão de Crédito
+94,2026-02-08,João Oliveira,Jogo de Almofadas,Têxteis,Sul,5,120.00,0,600.00,PIX
+95,2026-04-18,Carla Souza,Mesa de Jantar,Móveis,Norte,4,1800.00,0,7200.00,Cartão de Débito
+96,2026-04-11,Felipe Santos,Tapete Decorativo,Decoração,Centro-Oeste,3,320.00,0,960.00,Dinheiro
+97,2025-03-25,Henrique Melo,Luminária de Mesa,Iluminação,Norte,4,185.00,0,740.00,Boleto
+98,2025-03-12,Natália Gomes,Sofá 3 Lugares,Móveis,Norte,3,2450.00,0,7350.00,PIX
+99,2026-09-29,Carla Souza,Guarda-Roupa,Móveis,Nordeste,2,2100.00,0,4200.00,Cartão de Crédito
+100,2025-08-12,Henrique Melo,Espelho Redondo,Decoração,Centro-Oeste,1,260.00,10,234.00,Cartão de Débito
+101,2025-04-28,Natália Gomes,Cadeira Estofada,Móveis,Nordeste,5,420.00,10,1890.00,Cartão de Débito
+102,2025-11-16,João Oliveira,Mesa de Jantar,Móveis,Sudeste,5,1800.00,0,9000.00,Dinheiro
+103,2025-09-06,Bruno Costa,Guarda-Roupa,Móveis,Centro-Oeste,1,2100.00,10,1890.00,Boleto
+104,2025-12-22,Isabela Martins,Mesa de Jantar,Móveis,Sudeste,5,1800.00,0,9000.00,Cartão de Débito
+105,2025-12-16,Ana Silva,Mesa de Jantar,Móveis,Sudeste,5,1800.00,15,7650.00,Dinheiro
+106,2026-04-16,Marcos Pereira,Mesa de Jantar,Móveis,Nordeste,4,1800.00,0,7200.00,Dinheiro
+107,2025-10-04,João Oliveira,Cadeira Estofada,Móveis,Sul,5,420.00,15,1785.00,Dinheiro
+108,2026-08-30,Eduarda Rocha,Espelho Redondo,Decoração,Centro-Oeste,4,260.00,15,884.00,Cartão de Crédito
+109,2025-09-07,Natália Gomes,Mesa de Jantar,Móveis,Sudeste,3,1800.00,5,5130.00,Boleto
+110,2025-01-30,Henrique Melo,Jogo de Almofadas,Têxteis,Centro-Oeste,4,120.00,0,480.00,Cartão de Crédito
+111,2025-09-22,Felipe Santos,Espelho Redondo,Decoração,Centro-Oeste,2,260.00,0,520.00,Boleto
+112,2026-06-14,Daniel Lima,Luminária de Mesa,Iluminação,Norte,5,185.00,0,925.00,Cartão de Crédito
+113,2025-09-04,Marcos Pereira,Tapete Decorativo,Decoração,Sudeste,4,320.00,10,1152.00,Dinheiro
+114,2025-10-29,Daniel Lima,Espelho Redondo,Decoração,Sudeste,1,260.00,0,260.00,Cartão de Crédito
+115,2026-04-30,Isabela Martins,Luminária de Mesa,Iluminação,Sul,5,185.00,0,925.00,Cartão de Débito
+116,2025-12-27,Marcos Pereira,Tapete Decorativo,Decoração,Sudeste,5,320.00,0,1600.00,Cartão de Débito
+117,2025-05-04,Marcos Pereira,Luminária de Mesa,Iluminação,Nordeste,3,185.00,0,555.00,Cartão de Débito
+118,2025-07-09,Daniel Lima,Mesa de Jantar,Móveis,Nordeste,5,1800.00,15,7650.00,Dinheiro
+119,2026-09-04,Eduarda Rocha,Luminária de Mesa,Iluminação,Norte,5,185.00,10,832.50,Cartão de Crédito
+120,2025-07-03,Eduarda Rocha,Luminária de Mesa,Iluminação,Norte,2,185.00,0,370.00,Boleto
+121,2025-02-25,Isabela Martins,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,0,1260.00,Cartão de Crédito
+122,2026-08-11,Eduarda Rocha,Espelho Redondo,Decoração,Sudeste,1,260.00,0,260.00,Dinheiro
+123,2025-02-22,Eduarda Rocha,Espelho Redondo,Decoração,Sudeste,3,260.00,0,780.00,PIX
+124,2025-03-17,João Oliveira,Mesa de Jantar,Móveis,Norte,4,1800.00,5,6840.00,Cartão de Crédito
+125,2025-03-29,Daniel Lima,Cadeira Estofada,Móveis,Norte,5,420.00,0,2100.00,Boleto
+126,2026-09-26,Daniel Lima,Tapete Decorativo,Decoração,Sul,5,320.00,10,1440.00,Dinheiro
+127,2026-08-26,Gabriela Alves,Espelho Redondo,Decoração,Centro-Oeste,4,260.00,0,1040.00,Boleto
+128,2025-04-12,Natália Gomes,Jogo de Almofadas,Têxteis,Nordeste,1,120.00,10,108.00,Cartão de Crédito
+129,2025-09-03,Carla Souza,Luminária de Mesa,Iluminação,Sul,1,185.00,0,185.00,PIX
+130,2026-04-07,Marcos Pereira,Cadeira Estofada,Móveis,Sul,1,420.00,5,399.00,Dinheiro
+131,2025-10-23,Marcos Pereira,Luminária de Mesa,Iluminação,Centro-Oeste,1,185.00,0,185.00,Dinheiro
+132,2026-08-27,Larissa Ribeiro,Mesa de Jantar,Móveis,Nordeste,2,1800.00,0,3600.00,Dinheiro
+133,2025-06-02,Renata Araújo,Mesa de Jantar,Móveis,Centro-Oeste,5,1800.00,0,9000.00,Cartão de Crédito
+134,2025-11-11,João Oliveira,Mesa de Jantar,Móveis,Sul,1,1800.00,0,1800.00,Cartão de Débito
+135,2025-11-08,Marcos Pereira,Espelho Redondo,Decoração,Sudeste,1,260.00,5,247.00,Cartão de Débito
+136,2026-03-25,Bruno Costa,Cortina Blackout,Têxteis,Sul,5,230.00,5,1092.50,PIX
+137,2025-09-14,Ana Silva,Tapete Decorativo,Decoração,Norte,3,320.00,10,864.00,Cartão de Crédito
+138,2025-10-03,João Oliveira,Jogo de Almofadas,Têxteis,Norte,5,120.00,0,600.00,Cartão de Crédito
+139,2026-03-29,Renata Araújo,Espelho Redondo,Decoração,Centro-Oeste,5,260.00,15,1105.00,Cartão de Crédito
+140,2026-05-19,Bruno Costa,Jogo de Almofadas,Têxteis,Sudeste,4,120.00,15,408.00,Cartão de Débito
+141,2025-04-18,Paulo Ferreira,Tapete Decorativo,Decoração,Nordeste,3,320.00,0,960.00,Cartão de Débito
+142,2026-02-15,Paulo Ferreira,Tapete Decorativo,Decoração,Sul,4,320.00,0,1280.00,PIX
+143,2025-09-16,Felipe Santos,Espelho Redondo,Decoração,Norte,1,260.00,0,260.00,Dinheiro
+144,2026-07-10,Henrique Melo,Cortina Blackout,Têxteis,Sudeste,1,230.00,15,195.50,PIX
+145,2026-09-30,Natália Gomes,Guarda-Roupa,Móveis,Sudeste,5,2100.00,0,10500.00,Dinheiro
+146,2026-07-17,Carla Souza,Sofá 3 Lugares,Móveis,Centro-Oeste,2,2450.00,0,4900.00,Dinheiro
+147,2026-09-16,Natália Gomes,Espelho Redondo,Decoração,Nordeste,1,260.00,0,260.00,Cartão de Crédito
+148,2026-07-20,Gabriela Alves,Luminária de Mesa,Iluminação,Norte,5,185.00,0,925.00,Cartão de Crédito
+149,2025-06-07,Henrique Melo,Mesa de Jantar,Móveis,Centro-Oeste,4,1800.00,0,7200.00,Boleto
+150,2026-04-29,Daniel Lima,Luminária de Mesa,Iluminação,Sudeste,4,185.00,5,703.00,Boleto
+151,2026-09-06,Isabela Martins,Cadeira Estofada,Móveis,Nordeste,4,420.00,0,1680.00,PIX
+152,2026-06-04,Eduarda Rocha,Luminária de Mesa,Iluminação,Norte,4,185.00,0,740.00,Cartão de Débito
+153,2026-05-17,Paulo Ferreira,Luminária de Mesa,Iluminação,Nordeste,5,185.00,10,832.50,Dinheiro
+154,2025-12-07,Isabela Martins,Cortina Blackout,Têxteis,Sul,4,230.00,0,920.00,Dinheiro
+155,2025-09-02,João Oliveira,Espelho Redondo,Decoração,Sudeste,3,260.00,0,780.00,Cartão de Crédito
+156,2026-04-30,Marcos Pereira,Tapete Decorativo,Decoração,Sudeste,1,320.00,0,320.00,Dinheiro
+157,2025-05-10,Isabela Martins,Cadeira Estofada,Móveis,Sul,4,420.00,0,1680.00,Cartão de Débito
+158,2026-06-23,Renata Araújo,Mesa de Jantar,Móveis,Sudeste,4,1800.00,0,7200.00,PIX
+159,2025-06-08,Bruno Costa,Cadeira Estofada,Móveis,Sudeste,4,420.00,15,1428.00,Cartão de Débito
+160,2026-02-12,Larissa Ribeiro,Pendente LED,Iluminação,Norte,5,390.00,15,1657.50,Cartão de Débito
+161,2026-05-15,Paulo Ferreira,Cortina Blackout,Têxteis,Sul,4,230.00,0,920.00,PIX
+162,2025-10-22,Daniel Lima,Jogo de Almofadas,Têxteis,Norte,1,120.00,0,120.00,Dinheiro
+163,2025-06-20,Marcos Pereira,Mesa de Jantar,Móveis,Centro-Oeste,1,1800.00,5,1710.00,PIX
+164,2025-10-28,Felipe Santos,Sofá 3 Lugares,Móveis,Centro-Oeste,3,2450.00,0,7350.00,Dinheiro
+165,2026-02-26,João Oliveira,Cadeira Estofada,Móveis,Nordeste,2,420.00,10,756.00,Cartão de Crédito
+166,2026-01-27,João Oliveira,Cadeira Estofada,Móveis,Nordeste,1,420.00,10,378.00,Dinheiro
+167,2026-04-18,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Centro-Oeste,2,120.00,0,240.00,Dinheiro
+168,2025-10-22,Larissa Ribeiro,Luminária de Mesa,Iluminação,Sul,1,185.00,5,175.75,Cartão de Crédito
+169,2026-08-25,Eduarda Rocha,Mesa de Jantar,Móveis,Sudeste,4,1800.00,0,7200.00,Cartão de Débito
+170,2026-01-29,Paulo Ferreira,Espelho Redondo,Decoração,Sudeste,3,260.00,0,780.00,PIX
+171,2026-01-03,João Oliveira,Guarda-Roupa,Móveis,Centro-Oeste,4,2100.00,10,7560.00,Cartão de Débito
+172,2025-01-09,João Oliveira,Sofá 3 Lugares,Móveis,Norte,4,2450.00,0,9800.00,Boleto
+173,2026-09-14,Natália Gomes,Espelho Redondo,Decoração,Centro-Oeste,3,260.00,0,780.00,Cartão de Crédito
+174,2025-05-21,Larissa Ribeiro,Guarda-Roupa,Móveis,Norte,5,2100.00,0,10500.00,PIX
+175,2026-08-17,Felipe Santos,Luminária de Mesa,Iluminação,Nordeste,4,185.00,0,740.00,PIX
+176,2026-03-02,Carla Souza,Luminária de Mesa,Iluminação,Nordeste,3,185.00,15,471.75,Cartão de Crédito
+177,2026-05-29,Renata Araújo,Cortina Blackout,Têxteis,Centro-Oeste,3,230.00,10,621.00,Cartão de Crédito
+178,2025-12-13,Natália Gomes,Luminária de Mesa,Iluminação,Norte,4,185.00,0,740.00,Dinheiro
+179,2026-02-11,Paulo Ferreira,Mesa de Jantar,Móveis,Sul,2,1800.00,0,3600.00,Cartão de Débito
+180,2025-09-28,Isabela Martins,Mesa de Jantar,Móveis,Norte,4,1800.00,0,7200.00,Dinheiro
+181,2026-01-26,Paulo Ferreira,Pendente LED,Iluminação,Centro-Oeste,3,390.00,10,1053.00,PIX
+182,2026-09-27,Renata Araújo,Guarda-Roupa,Móveis,Sul,4,2100.00,0,8400.00,Cartão de Débito
+183,2025-03-06,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Sudeste,2,120.00,15,204.00,Cartão de Débito
+184,2025-02-16,Ana Silva,Tapete Decorativo,Decoração,Centro-Oeste,1,320.00,0,320.00,Dinheiro
+185,2026-07-05,Carla Souza,Mesa de Jantar,Móveis,Sudeste,1,1800.00,0,1800.00,Dinheiro
+186,2026-08-25,Marcos Pereira,Pendente LED,Iluminação,Nordeste,5,390.00,5,1852.50,Dinheiro
+187,2026-02-22,Eduarda Rocha,Mesa de Jantar,Móveis,Norte,4,1800.00,10,6480.00,Cartão de Débito
+188,2025-08-30,Paulo Ferreira,Guarda-Roupa,Móveis,Centro-Oeste,4,2100.00,5,7980.00,PIX
+189,2026-01-03,Ana Silva,Pendente LED,Iluminação,Sudeste,5,390.00,15,1657.50,Cartão de Débito
+190,2025-04-04,Larissa Ribeiro,Guarda-Roupa,Móveis,Nordeste,1,2100.00,5,1995.00,Boleto
+191,2025-09-07,Carla Souza,Sofá 3 Lugares,Móveis,Sul,1,2450.00,0,2450.00,Cartão de Crédito
+192,2026-08-24,Daniel Lima,Mesa de Jantar,Móveis,Nordeste,5,1800.00,0,9000.00,Cartão de Débito
+193,2025-10-11,Paulo Ferreira,Cadeira Estofada,Móveis,Nordeste,5,420.00,0,2100.00,Cartão de Crédito
+194,2025-04-23,Larissa Ribeiro,Cortina Blackout,Têxteis,Norte,3,230.00,0,690.00,Cartão de Crédito
+195,2026-08-26,Felipe Santos,Sofá 3 Lugares,Móveis,Norte,3,2450.00,0,7350.00,Cartão de Crédito
+196,2026-03-08,Isabela Martins,Luminária de Mesa,Iluminação,Norte,1,185.00,0,185.00,PIX
+197,2026-06-10,João Oliveira,Espelho Redondo,Decoração,Norte,4,260.00,0,1040.00,Dinheiro
+198,2025-02-14,Marcos Pereira,Cortina Blackout,Têxteis,Sul,2,230.00,10,414.00,Cartão de Débito
+199,2026-05-06,Paulo Ferreira,Espelho Redondo,Decoração,Sudeste,1,260.00,0,260.00,Dinheiro
+200,2026-03-31,Bruno Costa,Mesa de Jantar,Móveis,Norte,4,1800.00,15,6120.00,Cartão de Débito
+201,2025-05-10,Eduarda Rocha,Jogo de Almofadas,Têxteis,Sul,2,120.00,0,240.00,Boleto
+202,2026-09-04,Isabela Martins,Cortina Blackout,Têxteis,Centro-Oeste,3,230.00,5,655.50,Dinheiro
+203,2025-04-12,Natália Gomes,Cortina Blackout,Têxteis,Norte,5,230.00,5,1092.50,Boleto
+204,2025-08-22,Gabriela Alves,Guarda-Roupa,Móveis,Centro-Oeste,4,2100.00,5,7980.00,Dinheiro
+205,2025-04-08,Felipe Santos,Tapete Decorativo,Decoração,Sudeste,4,320.00,15,1088.00,Cartão de Débito
+206,2026-05-01,Bruno Costa,Luminária de Mesa,Iluminação,Norte,3,185.00,0,555.00,PIX
+207,2026-01-17,Natália Gomes,Mesa de Jantar,Móveis,Nordeste,4,1800.00,0,7200.00,Boleto
+208,2026-07-30,Felipe Santos,Sofá 3 Lugares,Móveis,Norte,5,2450.00,10,11025.00,Dinheiro
+209,2025-02-22,Eduarda Rocha,Pendente LED,Iluminação,Sul,4,390.00,15,1326.00,Cartão de Débito
+210,2026-06-04,Daniel Lima,Pendente LED,Iluminação,Nordeste,1,390.00,10,351.00,Dinheiro
+211,2026-07-24,Felipe Santos,Guarda-Roupa,Móveis,Norte,1,2100.00,0,2100.00,Cartão de Débito
+212,2026-07-29,Natália Gomes,Jogo de Almofadas,Têxteis,Sul,2,120.00,5,228.00,Boleto
+213,2025-10-01,Ana Silva,Cortina Blackout,Têxteis,Nordeste,1,230.00,10,207.00,Cartão de Débito
+214,2025-01-07,Carla Souza,Luminária de Mesa,Iluminação,Nordeste,3,185.00,0,555.00,Boleto
+215,2025-02-01,Bruno Costa,Tapete Decorativo,Decoração,Sul,1,320.00,0,320.00,Cartão de Crédito
+216,2025-12-16,Carla Souza,Tapete Decorativo,Decoração,Centro-Oeste,4,320.00,5,1216.00,Cartão de Débito
+217,2025-03-28,Renata Araújo,Pendente LED,Iluminação,Norte,5,390.00,10,1755.00,Cartão de Crédito
+218,2025-03-25,Eduarda Rocha,Cadeira Estofada,Móveis,Sudeste,5,420.00,0,2100.00,Dinheiro
+219,2026-03-01,Eduarda Rocha,Espelho Redondo,Decoração,Nordeste,5,260.00,5,1235.00,Boleto
+220,2025-04-24,Eduarda Rocha,Mesa de Jantar,Móveis,Sul,3,1800.00,5,5130.00,Dinheiro
+221,2025-08-14,Gabriela Alves,Cortina Blackout,Têxteis,Sul,3,230.00,0,690.00,PIX
+222,2025-08-05,Natália Gomes,Sofá 3 Lugares,Móveis,Nordeste,2,2450.00,0,4900.00,Cartão de Débito
+223,2025-01-08,Henrique Melo,Luminária de Mesa,Iluminação,Sudeste,3,185.00,0,555.00,Cartão de Crédito
+224,2025-08-24,Isabela Martins,Cadeira Estofada,Móveis,Sul,4,420.00,10,1512.00,Cartão de Débito
+225,2025-02-13,Gabriela Alves,Mesa de Jantar,Móveis,Norte,4,1800.00,15,6120.00,Dinheiro
+226,2026-03-16,João Oliveira,Mesa de Jantar,Móveis,Sudeste,3,1800.00,10,4860.00,Dinheiro
+227,2025-01-22,Felipe Santos,Luminária de Mesa,Iluminação,Nordeste,1,185.00,5,175.75,Boleto
+228,2026-03-24,Paulo Ferreira,Espelho Redondo,Decoração,Norte,3,260.00,0,780.00,Cartão de Crédito
+229,2026-06-21,Bruno Costa,Tapete Decorativo,Decoração,Sudeste,5,320.00,5,1520.00,Cartão de Débito
+230,2025-06-22,Bruno Costa,Pendente LED,Iluminação,Sul,2,390.00,0,780.00,PIX
+231,2025-12-24,Felipe Santos,Cortina Blackout,Têxteis,Nordeste,5,230.00,0,1150.00,Cartão de Crédito
+232,2025-07-22,Carla Souza,Mesa de Jantar,Móveis,Sul,2,1800.00,0,3600.00,Cartão de Crédito
+233,2026-05-21,Henrique Melo,Mesa de Jantar,Móveis,Sul,2,1800.00,15,3060.00,Boleto
+234,2025-11-27,Paulo Ferreira,Espelho Redondo,Decoração,Centro-Oeste,5,260.00,15,1105.00,Cartão de Crédito
+235,2026-03-29,Larissa Ribeiro,Espelho Redondo,Decoração,Centro-Oeste,1,260.00,5,247.00,Cartão de Débito
+236,2026-06-04,Bruno Costa,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,0,120.00,Dinheiro
+237,2026-01-13,Paulo Ferreira,Espelho Redondo,Decoração,Centro-Oeste,1,260.00,0,260.00,PIX
+238,2026-06-04,Gabriela Alves,Mesa de Jantar,Móveis,Sudeste,5,1800.00,10,8100.00,Boleto
+239,2026-08-09,Larissa Ribeiro,Cortina Blackout,Têxteis,Nordeste,1,230.00,5,218.50,Cartão de Débito
+240,2025-06-04,Ana Silva,Jogo de Almofadas,Têxteis,Sudeste,4,120.00,10,432.00,PIX
+241,2025-06-26,Ana Silva,Pendente LED,Iluminação,Nordeste,1,390.00,10,351.00,Dinheiro
+242,2026-09-17,Carla Souza,Espelho Redondo,Decoração,Centro-Oeste,5,260.00,10,1170.00,Cartão de Débito
+243,2025-12-13,Larissa Ribeiro,Luminária de Mesa,Iluminação,Sul,4,185.00,5,703.00,PIX
+244,2025-04-07,Isabela Martins,Pendente LED,Iluminação,Sudeste,1,390.00,0,390.00,Cartão de Débito
+245,2025-12-08,Bruno Costa,Luminária de Mesa,Iluminação,Sul,5,185.00,0,925.00,Cartão de Crédito
+246,2026-02-06,Carla Souza,Pendente LED,Iluminação,Sul,3,390.00,15,994.50,PIX
+247,2025-12-03,Paulo Ferreira,Luminária de Mesa,Iluminação,Nordeste,5,185.00,5,878.75,Boleto
+248,2026-01-06,Ana Silva,Mesa de Jantar,Móveis,Centro-Oeste,4,1800.00,10,6480.00,Cartão de Débito
+249,2026-05-13,Daniel Lima,Cadeira Estofada,Móveis,Nordeste,2,420.00,0,840.00,Cartão de Crédito
+250,2025-04-14,Isabela Martins,Cadeira Estofada,Móveis,Sul,1,420.00,0,420.00,Boleto
+251,2025-05-15,João Oliveira,Sofá 3 Lugares,Móveis,Sudeste,3,2450.00,10,6615.00,Cartão de Crédito
+252,2025-06-19,Marcos Pereira,Cadeira Estofada,Móveis,Sudeste,2,420.00,15,714.00,PIX
+253,2025-09-01,Henrique Melo,Tapete Decorativo,Decoração,Sul,3,320.00,15,816.00,Cartão de Débito
+254,2025-09-02,Eduarda Rocha,Espelho Redondo,Decoração,Sudeste,2,260.00,10,468.00,Cartão de Crédito
+255,2026-04-18,Natália Gomes,Pendente LED,Iluminação,Centro-Oeste,5,390.00,5,1852.50,Dinheiro
+256,2025-06-15,Paulo Ferreira,Cortina Blackout,Têxteis,Nordeste,5,230.00,5,1092.50,Boleto
+257,2026-05-08,Paulo Ferreira,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,0,1260.00,Boleto
+258,2025-10-19,Bruno Costa,Mesa de Jantar,Móveis,Nordeste,5,1800.00,0,9000.00,Cartão de Débito
+259,2026-03-24,Bruno Costa,Espelho Redondo,Decoração,Nordeste,5,260.00,0,1300.00,Dinheiro
+260,2025-02-24,Gabriela Alves,Pendente LED,Iluminação,Sul,1,390.00,5,370.50,Cartão de Débito
+261,2026-01-19,Daniel Lima,Guarda-Roupa,Móveis,Norte,4,2100.00,0,8400.00,Cartão de Débito
+262,2025-05-21,Ana Silva,Mesa de Jantar,Móveis,Centro-Oeste,3,1800.00,0,5400.00,Dinheiro
+263,2026-09-23,Ana Silva,Cadeira Estofada,Móveis,Norte,4,420.00,5,1596.00,PIX
+264,2026-07-16,Marcos Pereira,Luminária de Mesa,Iluminação,Sul,2,185.00,0,370.00,Boleto
+265,2025-09-01,Eduarda Rocha,Tapete Decorativo,Decoração,Norte,1,320.00,0,320.00,PIX
+266,2026-09-30,Henrique Melo,Guarda-Roupa,Móveis,Norte,4,2100.00,15,7140.00,PIX
+267,2025-01-17,Larissa Ribeiro,Espelho Redondo,Decoração,Sul,5,260.00,10,1170.00,Boleto
+268,2026-03-16,Ana Silva,Guarda-Roupa,Móveis,Sul,2,2100.00,0,4200.00,Cartão de Débito
+269,2025-07-11,Larissa Ribeiro,Guarda-Roupa,Móveis,Norte,5,2100.00,5,9975.00,Boleto
+270,2026-07-12,Isabela Martins,Pendente LED,Iluminação,Sul,1,390.00,10,351.00,Boleto
+271,2025-02-14,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Sudeste,4,2450.00,5,9310.00,Cartão de Débito
+272,2025-03-11,Felipe Santos,Luminária de Mesa,Iluminação,Nordeste,1,185.00,0,185.00,PIX
+273,2025-02-15,Felipe Santos,Jogo de Almofadas,Têxteis,Sul,3,120.00,0,360.00,Cartão de Débito
+274,2026-05-06,Larissa Ribeiro,Cadeira Estofada,Móveis,Nordeste,4,420.00,15,1428.00,Cartão de Crédito
+275,2025-10-28,Daniel Lima,Mesa de Jantar,Móveis,Norte,4,1800.00,0,7200.00,Cartão de Crédito
+276,2026-06-12,Gabriela Alves,Sofá 3 Lugares,Móveis,Sul,3,2450.00,0,7350.00,Dinheiro
+277,2025-07-15,Eduarda Rocha,Luminária de Mesa,Iluminação,Centro-Oeste,1,185.00,15,157.25,PIX
+278,2026-01-12,Gabriela Alves,Pendente LED,Iluminação,Sudeste,3,390.00,0,1170.00,Dinheiro
+279,2026-05-24,Marcos Pereira,Tapete Decorativo,Decoração,Sudeste,3,320.00,0,960.00,Cartão de Débito
+280,2026-03-11,Bruno Costa,Cortina Blackout,Têxteis,Sudeste,3,230.00,0,690.00,Boleto
+281,2025-11-25,Bruno Costa,Cadeira Estofada,Móveis,Norte,5,420.00,0,2100.00,Cartão de Débito
+282,2026-09-10,Marcos Pereira,Luminária de Mesa,Iluminação,Sudeste,3,185.00,5,527.25,Cartão de Crédito
+283,2025-02-13,Marcos Pereira,Espelho Redondo,Decoração,Centro-Oeste,3,260.00,5,741.00,Boleto
+284,2025-02-28,Bruno Costa,Tapete Decorativo,Decoração,Sudeste,3,320.00,15,816.00,Cartão de Débito
+285,2025-05-27,Paulo Ferreira,Cortina Blackout,Têxteis,Sul,2,230.00,0,460.00,Dinheiro
+286,2025-08-30,Natália Gomes,Sofá 3 Lugares,Móveis,Centro-Oeste,2,2450.00,0,4900.00,Cartão de Débito
+287,2026-09-12,Carla Souza,Tapete Decorativo,Decoração,Sudeste,5,320.00,0,1600.00,Cartão de Débito
+288,2026-08-11,Carla Souza,Pendente LED,Iluminação,Sul,4,390.00,0,1560.00,Cartão de Débito
+289,2025-10-13,Daniel Lima,Tapete Decorativo,Decoração,Norte,3,320.00,15,816.00,PIX
+290,2026-02-01,Renata Araújo,Cadeira Estofada,Móveis,Sul,4,420.00,10,1512.00,PIX
+291,2026-04-02,Daniel Lima,Luminária de Mesa,Iluminação,Sul,3,185.00,15,471.75,Cartão de Débito
+292,2025-05-19,Paulo Ferreira,Espelho Redondo,Decoração,Norte,2,260.00,0,520.00,Dinheiro
+293,2025-11-24,Larissa Ribeiro,Cadeira Estofada,Móveis,Centro-Oeste,4,420.00,0,1680.00,PIX
+294,2025-11-04,Paulo Ferreira,Cortina Blackout,Têxteis,Nordeste,5,230.00,0,1150.00,Cartão de Crédito
+295,2025-05-05,Daniel Lima,Pendente LED,Iluminação,Nordeste,5,390.00,0,1950.00,Cartão de Crédito
+296,2026-07-22,João Oliveira,Espelho Redondo,Decoração,Centro-Oeste,1,260.00,0,260.00,Dinheiro
+297,2025-03-30,Bruno Costa,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,10,414.00,Dinheiro
+298,2026-02-24,Paulo Ferreira,Espelho Redondo,Decoração,Sul,5,260.00,5,1235.00,PIX
+299,2025-03-17,Henrique Melo,Cadeira Estofada,Móveis,Sudeste,3,420.00,15,1071.00,Boleto
+300,2026-08-25,Carla Souza,Pendente LED,Iluminação,Nordeste,2,390.00,10,702.00,Dinheiro
+301,2026-06-15,Carla Souza,Cortina Blackout,Têxteis,Centro-Oeste,1,230.00,0,230.00,Cartão de Crédito
+302,2025-08-19,Felipe Santos,Cadeira Estofada,Móveis,Sul,3,420.00,15,1071.00,Cartão de Débito
+303,2026-07-19,Eduarda Rocha,Mesa de Jantar,Móveis,Nordeste,3,1800.00,0,5400.00,Cartão de Débito
+304,2026-05-30,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Nordeste,5,120.00,0,600.00,Boleto
+305,2026-09-12,Felipe Santos,Jogo de Almofadas,Têxteis,Sul,2,120.00,0,240.00,PIX
+306,2026-08-14,Eduarda Rocha,Sofá 3 Lugares,Móveis,Nordeste,1,2450.00,0,2450.00,Boleto
+307,2025-02-01,Henrique Melo,Tapete Decorativo,Decoração,Sul,5,320.00,15,1360.00,Cartão de Débito
+308,2026-02-20,Eduarda Rocha,Luminária de Mesa,Iluminação,Sudeste,4,185.00,0,740.00,PIX
+309,2026-03-02,Henrique Melo,Sofá 3 Lugares,Móveis,Sudeste,2,2450.00,5,4655.00,Cartão de Crédito
+310,2025-11-17,Paulo Ferreira,Pendente LED,Iluminação,Centro-Oeste,5,390.00,0,1950.00,Cartão de Débito
+311,2026-06-12,Isabela Martins,Tapete Decorativo,Decoração,Norte,2,320.00,0,640.00,Cartão de Débito
+312,2025-10-01,Henrique Melo,Guarda-Roupa,Móveis,Nordeste,4,2100.00,0,8400.00,Cartão de Crédito
+313,2026-01-29,Paulo Ferreira,Mesa de Jantar,Móveis,Sul,1,1800.00,0,1800.00,Dinheiro
+314,2026-08-15,Marcos Pereira,Guarda-Roupa,Móveis,Centro-Oeste,2,2100.00,0,4200.00,Cartão de Crédito
+315,2026-04-24,Henrique Melo,Cadeira Estofada,Móveis,Centro-Oeste,4,420.00,10,1512.00,Dinheiro
+316,2026-06-02,Henrique Melo,Sofá 3 Lugares,Móveis,Nordeste,1,2450.00,5,2327.50,Cartão de Crédito
+317,2025-02-21,Eduarda Rocha,Jogo de Almofadas,Têxteis,Sudeste,3,120.00,0,360.00,Boleto
+318,2025-01-09,Paulo Ferreira,Espelho Redondo,Decoração,Norte,3,260.00,10,702.00,Dinheiro
+319,2026-01-10,Natália Gomes,Cadeira Estofada,Móveis,Sudeste,3,420.00,15,1071.00,Cartão de Débito
+320,2026-08-07,Isabela Martins,Sofá 3 Lugares,Móveis,Nordeste,4,2450.00,0,9800.00,Cartão de Débito
+321,2026-01-31,Isabela Martins,Cortina Blackout,Têxteis,Sudeste,3,230.00,0,690.00,Boleto
+322,2026-09-18,Bruno Costa,Luminária de Mesa,Iluminação,Nordeste,5,185.00,15,786.25,PIX
+323,2026-07-26,Felipe Santos,Tapete Decorativo,Decoração,Nordeste,3,320.00,0,960.00,Cartão de Crédito
+324,2026-05-28,Ana Silva,Jogo de Almofadas,Têxteis,Norte,5,120.00,5,570.00,PIX
+325,2026-06-16,Henrique Melo,Cadeira Estofada,Móveis,Nordeste,3,420.00,5,1197.00,Boleto
+326,2026-09-20,Felipe Santos,Cortina Blackout,Têxteis,Nordeste,2,230.00,0,460.00,Dinheiro
+327,2025-12-11,Isabela Martins,Jogo de Almofadas,Têxteis,Sul,3,120.00,10,324.00,Boleto
+328,2026-05-02,Paulo Ferreira,Espelho Redondo,Decoração,Norte,5,260.00,0,1300.00,Cartão de Débito
+329,2026-08-21,Eduarda Rocha,Pendente LED,Iluminação,Norte,1,390.00,5,370.50,Boleto
+330,2026-08-16,João Oliveira,Espelho Redondo,Decoração,Nordeste,3,260.00,15,663.00,PIX
+331,2026-06-21,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Sul,4,120.00,0,480.00,Dinheiro
+332,2026-08-10,Marcos Pereira,Cadeira Estofada,Móveis,Norte,2,420.00,0,840.00,Cartão de Crédito
+333,2026-03-05,Carla Souza,Sofá 3 Lugares,Móveis,Sudeste,4,2450.00,0,9800.00,Cartão de Crédito
+334,2026-04-28,Paulo Ferreira,Tapete Decorativo,Decoração,Norte,5,320.00,10,1440.00,Cartão de Crédito
+335,2025-11-29,Larissa Ribeiro,Cortina Blackout,Têxteis,Sudeste,2,230.00,10,414.00,Boleto
+336,2026-04-16,Renata Araújo,Tapete Decorativo,Decoração,Sul,3,320.00,0,960.00,Cartão de Débito
+337,2025-09-28,João Oliveira,Cortina Blackout,Têxteis,Sudeste,3,230.00,15,586.50,Cartão de Crédito
+338,2025-11-02,Daniel Lima,Guarda-Roupa,Móveis,Centro-Oeste,3,2100.00,10,5670.00,Cartão de Débito
+339,2026-05-07,Felipe Santos,Guarda-Roupa,Móveis,Sul,4,2100.00,0,8400.00,Cartão de Débito
+340,2026-07-11,Gabriela Alves,Luminária de Mesa,Iluminação,Sudeste,1,185.00,10,166.50,Cartão de Débito
+341,2025-10-22,Marcos Pereira,Cadeira Estofada,Móveis,Norte,3,420.00,0,1260.00,Cartão de Débito
+342,2026-05-06,Daniel Lima,Espelho Redondo,Decoração,Nordeste,3,260.00,15,663.00,Boleto
+343,2025-10-06,Carla Souza,Luminária de Mesa,Iluminação,Norte,5,185.00,15,786.25,Boleto
+344,2025-02-21,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Sul,2,120.00,0,240.00,Cartão de Crédito
+345,2026-02-28,Felipe Santos,Guarda-Roupa,Móveis,Sudeste,1,2100.00,0,2100.00,PIX
+346,2025-06-11,Gabriela Alves,Cadeira Estofada,Móveis,Sudeste,1,420.00,10,378.00,Dinheiro
+347,2025-10-20,Larissa Ribeiro,Guarda-Roupa,Móveis,Norte,3,2100.00,0,6300.00,PIX
+348,2025-02-08,Renata Araújo,Jogo de Almofadas,Têxteis,Nordeste,2,120.00,10,216.00,Dinheiro
+349,2026-05-23,Carla Souza,Cadeira Estofada,Móveis,Centro-Oeste,1,420.00,5,399.00,PIX
+350,2026-09-10,Bruno Costa,Sofá 3 Lugares,Móveis,Centro-Oeste,3,2450.00,10,6615.00,Cartão de Débito
+351,2026-05-21,Renata Araújo,Espelho Redondo,Decoração,Nordeste,5,260.00,10,1170.00,Boleto
+352,2025-04-26,Felipe Santos,Espelho Redondo,Decoração,Nordeste,3,260.00,0,780.00,Dinheiro
+353,2025-12-12,Natália Gomes,Luminária de Mesa,Iluminação,Centro-Oeste,2,185.00,0,370.00,Boleto
+354,2026-02-20,Paulo Ferreira,Guarda-Roupa,Móveis,Sudeste,2,2100.00,10,3780.00,Boleto
+355,2025-04-08,Carla Souza,Pendente LED,Iluminação,Nordeste,1,390.00,5,370.50,Dinheiro
+356,2025-09-25,Gabriela Alves,Pendente LED,Iluminação,Nordeste,2,390.00,0,780.00,Dinheiro
+357,2026-08-20,Marcos Pereira,Luminária de Mesa,Iluminação,Sul,3,185.00,0,555.00,PIX
+358,2025-08-30,Ana Silva,Luminária de Mesa,Iluminação,Norte,3,185.00,15,471.75,Dinheiro
+359,2026-05-30,Renata Araújo,Luminária de Mesa,Iluminação,Centro-Oeste,2,185.00,5,351.50,PIX
+360,2025-08-15,Daniel Lima,Luminária de Mesa,Iluminação,Nordeste,3,185.00,10,499.50,Dinheiro
+361,2026-09-13,Felipe Santos,Cadeira Estofada,Móveis,Sudeste,4,420.00,15,1428.00,Boleto
+362,2025-08-12,Natália Gomes,Espelho Redondo,Decoração,Nordeste,5,260.00,15,1105.00,Boleto
+363,2026-06-25,Marcos Pereira,Mesa de Jantar,Móveis,Centro-Oeste,5,1800.00,5,8550.00,PIX
+364,2026-07-15,Renata Araújo,Jogo de Almofadas,Têxteis,Sul,1,120.00,0,120.00,Cartão de Crédito
+365,2025-06-18,Felipe Santos,Jogo de Almofadas,Têxteis,Sul,5,120.00,0,600.00,Dinheiro
+366,2026-08-21,Henrique Melo,Mesa de Jantar,Móveis,Norte,2,1800.00,15,3060.00,Boleto
+367,2025-05-16,Isabela Martins,Espelho Redondo,Decoração,Sudeste,1,260.00,5,247.00,Dinheiro
+368,2026-04-19,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,10,108.00,PIX
+369,2025-08-12,João Oliveira,Tapete Decorativo,Decoração,Norte,3,320.00,0,960.00,PIX
+370,2025-03-07,Isabela Martins,Tapete Decorativo,Decoração,Norte,3,320.00,15,816.00,PIX
+371,2026-02-23,Carla Souza,Espelho Redondo,Decoração,Nordeste,1,260.00,0,260.00,Dinheiro
+372,2026-01-22,Gabriela Alves,Pendente LED,Iluminação,Norte,4,390.00,5,1482.00,Boleto
+373,2025-07-02,Isabela Martins,Cadeira Estofada,Móveis,Sudeste,3,420.00,0,1260.00,Boleto
+374,2025-01-24,Eduarda Rocha,Cadeira Estofada,Móveis,Sudeste,2,420.00,0,840.00,Boleto
+375,2025-08-24,Daniel Lima,Tapete Decorativo,Decoração,Sudeste,5,320.00,5,1520.00,Cartão de Débito
+376,2025-04-26,Ana Silva,Cadeira Estofada,Móveis,Sudeste,3,420.00,0,1260.00,Boleto
+377,2025-03-10,Bruno Costa,Sofá 3 Lugares,Móveis,Sul,2,2450.00,0,4900.00,PIX
+378,2025-02-19,Daniel Lima,Espelho Redondo,Decoração,Norte,5,260.00,15,1105.00,Dinheiro
+379,2025-08-11,Natália Gomes,Espelho Redondo,Decoração,Norte,2,260.00,10,468.00,Cartão de Crédito
+380,2026-08-13,Felipe Santos,Cortina Blackout,Têxteis,Sul,3,230.00,0,690.00,Boleto
+381,2025-05-27,Larissa Ribeiro,Pendente LED,Iluminação,Sul,2,390.00,0,780.00,Cartão de Crédito
+382,2025-03-04,Isabela Martins,Tapete Decorativo,Decoração,Sul,3,320.00,0,960.00,Cartão de Crédito
+383,2025-02-18,Felipe Santos,Tapete Decorativo,Decoração,Sudeste,5,320.00,5,1520.00,Boleto
+384,2025-06-02,Eduarda Rocha,Pendente LED,Iluminação,Sudeste,4,390.00,5,1482.00,Cartão de Crédito
+385,2025-08-19,Eduarda Rocha,Cortina Blackout,Têxteis,Nordeste,4,230.00,0,920.00,Dinheiro
+386,2026-03-03,Isabela Martins,Sofá 3 Lugares,Móveis,Sul,5,2450.00,5,11637.50,Cartão de Crédito
+387,2025-07-28,Felipe Santos,Tapete Decorativo,Decoração,Norte,2,320.00,0,640.00,Dinheiro
+388,2025-07-15,Ana Silva,Pendente LED,Iluminação,Centro-Oeste,1,390.00,10,351.00,Dinheiro
+389,2025-03-16,Daniel Lima,Jogo de Almofadas,Têxteis,Sul,5,120.00,0,600.00,Boleto
+390,2025-12-07,Eduarda Rocha,Guarda-Roupa,Móveis,Norte,4,2100.00,0,8400.00,Cartão de Crédito
+391,2026-05-06,Renata Araújo,Guarda-Roupa,Móveis,Nordeste,1,2100.00,15,1785.00,Boleto
+392,2026-07-20,Felipe Santos,Guarda-Roupa,Móveis,Centro-Oeste,4,2100.00,0,8400.00,Dinheiro
+393,2026-01-03,Eduarda Rocha,Espelho Redondo,Decoração,Centro-Oeste,5,260.00,15,1105.00,Cartão de Débito
+394,2025-04-11,Natália Gomes,Cortina Blackout,Têxteis,Sudeste,4,230.00,5,874.00,Cartão de Débito
+395,2026-02-28,Ana Silva,Guarda-Roupa,Móveis,Sul,3,2100.00,0,6300.00,Cartão de Crédito
+396,2026-07-21,Renata Araújo,Cadeira Estofada,Móveis,Sul,1,420.00,0,420.00,Boleto
+397,2025-07-20,Felipe Santos,Tapete Decorativo,Decoração,Nordeste,3,320.00,0,960.00,Dinheiro
+398,2026-07-18,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Centro-Oeste,2,120.00,5,228.00,Cartão de Débito
+399,2025-06-22,Marcos Pereira,Espelho Redondo,Decoração,Centro-Oeste,4,260.00,5,988.00,Cartão de Crédito
+400,2025-07-08,Renata Araújo,Cadeira Estofada,Móveis,Sul,5,420.00,5,1995.00,PIX
+401,2025-02-19,Natália Gomes,Cortina Blackout,Têxteis,Norte,1,230.00,0,230.00,Dinheiro
+402,2025-06-04,Ana Silva,Cadeira Estofada,Móveis,Nordeste,2,420.00,0,840.00,Boleto
+403,2026-09-25,Larissa Ribeiro,Espelho Redondo,Decoração,Sul,3,260.00,0,780.00,Dinheiro
+404,2026-06-29,Isabela Martins,Espelho Redondo,Decoração,Sudeste,1,260.00,0,260.00,PIX
+405,2025-10-09,Isabela Martins,Sofá 3 Lugares,Móveis,Centro-Oeste,5,2450.00,15,10412.50,PIX
+406,2025-04-20,Renata Araújo,Cortina Blackout,Têxteis,Norte,4,230.00,0,920.00,Boleto
+407,2026-09-27,Isabela Martins,Cadeira Estofada,Móveis,Centro-Oeste,2,420.00,0,840.00,Cartão de Débito
+408,2026-01-18,Gabriela Alves,Luminária de Mesa,Iluminação,Sudeste,4,185.00,0,740.00,Boleto
+409,2025-03-24,Larissa Ribeiro,Guarda-Roupa,Móveis,Norte,2,2100.00,0,4200.00,PIX
+410,2026-07-20,Henrique Melo,Tapete Decorativo,Decoração,Norte,4,320.00,5,1216.00,PIX
+411,2026-03-21,Larissa Ribeiro,Cadeira Estofada,Móveis,Centro-Oeste,1,420.00,5,399.00,Boleto
+412,2025-08-24,Daniel Lima,Mesa de Jantar,Móveis,Sul,5,1800.00,0,9000.00,Dinheiro
+413,2025-10-15,Renata Araújo,Luminária de Mesa,Iluminação,Sul,1,185.00,0,185.00,Boleto
+414,2025-01-17,Daniel Lima,Sofá 3 Lugares,Móveis,Sul,2,2450.00,0,4900.00,Cartão de Crédito
+415,2025-06-16,João Oliveira,Tapete Decorativo,Decoração,Nordeste,1,320.00,0,320.00,Boleto
+416,2026-01-29,Natália Gomes,Tapete Decorativo,Decoração,Nordeste,5,320.00,0,1600.00,PIX
+417,2025-04-11,Gabriela Alves,Cortina Blackout,Têxteis,Nordeste,3,230.00,0,690.00,PIX
+418,2026-09-02,Gabriela Alves,Pendente LED,Iluminação,Centro-Oeste,5,390.00,10,1755.00,PIX
+419,2025-08-22,Felipe Santos,Luminária de Mesa,Iluminação,Sul,4,185.00,5,703.00,Dinheiro
+420,2026-08-23,Larissa Ribeiro,Tapete Decorativo,Decoração,Sudeste,2,320.00,15,544.00,PIX
+421,2025-03-17,Bruno Costa,Jogo de Almofadas,Têxteis,Centro-Oeste,3,120.00,0,360.00,Cartão de Crédito
+422,2026-02-03,Felipe Santos,Tapete Decorativo,Decoração,Centro-Oeste,2,320.00,15,544.00,PIX
+423,2026-04-01,Felipe Santos,Mesa de Jantar,Móveis,Centro-Oeste,1,1800.00,0,1800.00,PIX
+424,2026-03-18,Henrique Melo,Cadeira Estofada,Móveis,Sul,1,420.00,0,420.00,Boleto
+425,2025-01-27,Bruno Costa,Cortina Blackout,Têxteis,Centro-Oeste,4,230.00,0,920.00,Boleto
+426,2025-11-29,Paulo Ferreira,Mesa de Jantar,Móveis,Sudeste,5,1800.00,10,8100.00,PIX
+427,2025-03-28,Marcos Pereira,Luminária de Mesa,Iluminação,Sul,4,185.00,5,703.00,Cartão de Crédito
+428,2026-01-25,Carla Souza,Jogo de Almofadas,Têxteis,Nordeste,5,120.00,0,600.00,Cartão de Débito
+429,2025-05-30,Bruno Costa,Luminária de Mesa,Iluminação,Nordeste,3,185.00,5,527.25,Dinheiro
+430,2026-05-11,Natália Gomes,Luminária de Mesa,Iluminação,Norte,4,185.00,0,740.00,Cartão de Débito
+431,2026-05-23,João Oliveira,Luminária de Mesa,Iluminação,Sul,2,185.00,15,314.50,Cartão de Crédito
+432,2025-11-08,Ana Silva,Espelho Redondo,Decoração,Sudeste,1,260.00,0,260.00,Cartão de Débito
+433,2026-03-27,Felipe Santos,Jogo de Almofadas,Têxteis,Sudeste,4,120.00,0,480.00,Boleto
+434,2026-09-10,Marcos Pereira,Cadeira Estofada,Móveis,Nordeste,3,420.00,0,1260.00,Dinheiro
+435,2025-11-23,Eduarda Rocha,Pendente LED,Iluminação,Sudeste,2,390.00,5,741.00,Boleto
+436,2025-10-15,Paulo Ferreira,Guarda-Roupa,Móveis,Sudeste,3,2100.00,5,5985.00,Cartão de Débito
+437,2026-08-30,Isabela Martins,Mesa de Jantar,Móveis,Nordeste,5,1800.00,0,9000.00,Boleto
+438,2025-08-03,Henrique Melo,Sofá 3 Lugares,Móveis,Centro-Oeste,4,2450.00,15,8330.00,PIX
+439,2025-11-07,Daniel Lima,Tapete Decorativo,Decoração,Centro-Oeste,4,320.00,0,1280.00,Cartão de Crédito
+440,2026-04-05,João Oliveira,Tapete Decorativo,Decoração,Sudeste,4,320.00,0,1280.00,Boleto
+441,2026-03-05,Isabela Martins,Tapete Decorativo,Decoração,Norte,5,320.00,10,1440.00,Cartão de Débito
+442,2025-03-29,Bruno Costa,Cortina Blackout,Têxteis,Nordeste,5,230.00,15,977.50,Cartão de Débito
+443,2026-07-31,Larissa Ribeiro,Cadeira Estofada,Móveis,Sudeste,5,420.00,0,2100.00,Cartão de Débito
+444,2025-04-11,Eduarda Rocha,Tapete Decorativo,Decoração,Nordeste,1,320.00,0,320.00,Boleto
+445,2026-08-13,Daniel Lima,Cortina Blackout,Têxteis,Sudeste,5,230.00,10,1035.00,Cartão de Débito
+446,2026-08-26,Marcos Pereira,Tapete Decorativo,Decoração,Sul,4,320.00,15,1088.00,Cartão de Crédito
+447,2025-04-18,Eduarda Rocha,Pendente LED,Iluminação,Sudeste,1,390.00,5,370.50,PIX
+448,2025-11-16,Felipe Santos,Mesa de Jantar,Móveis,Sudeste,2,1800.00,0,3600.00,Cartão de Crédito
+449,2026-05-03,Bruno Costa,Cortina Blackout,Têxteis,Sudeste,4,230.00,0,920.00,Dinheiro
+450,2025-02-15,Natália Gomes,Pendente LED,Iluminação,Norte,1,390.00,0,390.00,PIX
+451,2025-06-18,Renata Araújo,Pendente LED,Iluminação,Nordeste,1,390.00,15,331.50,Boleto
+452,2025-12-05,Isabela Martins,Cadeira Estofada,Móveis,Sudeste,5,420.00,0,2100.00,Dinheiro
+453,2025-07-08,Carla Souza,Guarda-Roupa,Móveis,Sudeste,4,2100.00,15,7140.00,Dinheiro
+454,2026-04-06,João Oliveira,Sofá 3 Lugares,Móveis,Sudeste,5,2450.00,0,12250.00,Dinheiro
+455,2025-10-13,Natália Gomes,Sofá 3 Lugares,Móveis,Norte,2,2450.00,0,4900.00,Boleto
+456,2026-01-10,Felipe Santos,Mesa de Jantar,Móveis,Nordeste,5,1800.00,0,9000.00,Dinheiro
+457,2026-05-17,Isabela Martins,Mesa de Jantar,Móveis,Centro-Oeste,3,1800.00,15,4590.00,Boleto
+458,2026-08-25,Bruno Costa,Tapete Decorativo,Decoração,Centro-Oeste,5,320.00,5,1520.00,Cartão de Débito
+459,2025-11-01,Renata Araújo,Espelho Redondo,Decoração,Sul,5,260.00,0,1300.00,Boleto
+460,2025-05-01,Daniel Lima,Mesa de Jantar,Móveis,Centro-Oeste,2,1800.00,0,3600.00,PIX
+461,2025-05-25,Isabela Martins,Cadeira Estofada,Móveis,Sudeste,3,420.00,15,1071.00,Dinheiro
+462,2026-01-28,Gabriela Alves,Jogo de Almofadas,Têxteis,Nordeste,2,120.00,10,216.00,Dinheiro
+463,2025-06-20,Henrique Melo,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,10,414.00,Cartão de Crédito
+464,2026-09-27,Ana Silva,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,5,1197.00,PIX
+465,2026-01-29,Isabela Martins,Espelho Redondo,Decoração,Sul,2,260.00,0,520.00,Dinheiro
+466,2026-03-31,Henrique Melo,Tapete Decorativo,Decoração,Nordeste,4,320.00,5,1216.00,PIX
+467,2025-10-27,Ana Silva,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,0,120.00,Cartão de Crédito
+468,2026-04-14,João Oliveira,Cortina Blackout,Têxteis,Sudeste,3,230.00,0,690.00,Boleto
+469,2025-04-27,Eduarda Rocha,Cortina Blackout,Têxteis,Sul,1,230.00,10,207.00,Cartão de Débito
+470,2026-03-28,Isabela Martins,Cortina Blackout,Têxteis,Nordeste,1,230.00,15,195.50,Dinheiro
+471,2025-02-03,Henrique Melo,Mesa de Jantar,Móveis,Centro-Oeste,2,1800.00,0,3600.00,Cartão de Débito
+472,2025-08-31,Daniel Lima,Mesa de Jantar,Móveis,Sul,4,1800.00,0,7200.00,Cartão de Débito
+473,2026-09-23,Carla Souza,Jogo de Almofadas,Têxteis,Nordeste,4,120.00,0,480.00,Cartão de Crédito
+474,2026-06-30,Eduarda Rocha,Sofá 3 Lugares,Móveis,Sul,5,2450.00,0,12250.00,Boleto
+475,2025-10-27,Eduarda Rocha,Cadeira Estofada,Móveis,Sul,3,420.00,15,1071.00,Cartão de Débito
+476,2026-02-26,Renata Araújo,Cortina Blackout,Têxteis,Norte,1,230.00,0,230.00,Cartão de Débito
+477,2025-05-30,Marcos Pereira,Cadeira Estofada,Móveis,Centro-Oeste,2,420.00,0,840.00,Cartão de Crédito
+478,2026-08-15,Larissa Ribeiro,Tapete Decorativo,Decoração,Centro-Oeste,4,320.00,0,1280.00,Dinheiro
+479,2025-04-06,Gabriela Alves,Tapete Decorativo,Decoração,Sul,4,320.00,0,1280.00,Cartão de Débito
+480,2025-12-02,João Oliveira,Pendente LED,Iluminação,Norte,4,390.00,5,1482.00,PIX
+481,2026-07-02,Gabriela Alves,Espelho Redondo,Decoração,Nordeste,3,260.00,0,780.00,Dinheiro
+482,2025-11-27,Paulo Ferreira,Guarda-Roupa,Móveis,Centro-Oeste,4,2100.00,0,8400.00,Cartão de Débito
+483,2026-08-03,Paulo Ferreira,Cortina Blackout,Têxteis,Sudeste,5,230.00,0,1150.00,Cartão de Débito
+484,2026-04-16,Ana Silva,Sofá 3 Lugares,Móveis,Norte,1,2450.00,0,2450.00,Cartão de Crédito
+485,2026-03-15,Daniel Lima,Espelho Redondo,Decoração,Nordeste,4,260.00,0,1040.00,Cartão de Débito
+486,2026-01-05,Eduarda Rocha,Cadeira Estofada,Móveis,Norte,3,420.00,0,1260.00,Cartão de Débito
+487,2025-11-09,Marcos Pereira,Cadeira Estofada,Móveis,Nordeste,1,420.00,5,399.00,Dinheiro
+488,2025-08-07,Henrique Melo,Mesa de Jantar,Móveis,Norte,1,1800.00,0,1800.00,Cartão de Crédito
+489,2026-04-01,Ana Silva,Jogo de Almofadas,Têxteis,Norte,2,120.00,10,216.00,Cartão de Débito
+490,2025-05-16,Henrique Melo,Mesa de Jantar,Móveis,Norte,4,1800.00,15,6120.00,Cartão de Crédito
+491,2025-04-15,Bruno Costa,Tapete Decorativo,Decoração,Centro-Oeste,1,320.00,15,272.00,Cartão de Débito
+492,2025-05-17,Larissa Ribeiro,Luminária de Mesa,Iluminação,Nordeste,2,185.00,5,351.50,PIX
+493,2026-09-17,Larissa Ribeiro,Cortina Blackout,Têxteis,Nordeste,5,230.00,0,1150.00,Dinheiro
+494,2025-06-05,Renata Araújo,Pendente LED,Iluminação,Sudeste,2,390.00,15,663.00,Boleto
+495,2025-04-13,Carla Souza,Espelho Redondo,Decoração,Norte,2,260.00,0,520.00,Boleto
+496,2025-11-19,Natália Gomes,Tapete Decorativo,Decoração,Nordeste,3,320.00,5,912.00,Cartão de Crédito
+497,2026-07-21,João Oliveira,Luminária de Mesa,Iluminação,Sul,1,185.00,0,185.00,Boleto
+498,2025-11-05,Daniel Lima,Luminária de Mesa,Iluminação,Sul,1,185.00,15,157.25,Boleto
+499,2026-02-06,Eduarda Rocha,Cortina Blackout,Têxteis,Norte,2,230.00,15,391.00,Cartão de Crédito
+500,2025-09-04,Henrique Melo,Espelho Redondo,Decoração,Sul,4,260.00,0,1040.00,PIX
+501,2025-11-21,Carla Souza,Cortina Blackout,Têxteis,Sudeste,1,230.00,0,230.00,Boleto
+502,2025-06-26,Natália Gomes,Tapete Decorativo,Decoração,Sudeste,3,320.00,10,864.00,PIX
+503,2025-01-15,Eduarda Rocha,Sofá 3 Lugares,Móveis,Nordeste,5,2450.00,0,12250.00,PIX
+504,2025-10-21,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Sul,4,2450.00,10,8820.00,Dinheiro
+505,2026-07-04,Isabela Martins,Tapete Decorativo,Decoração,Sul,4,320.00,0,1280.00,Cartão de Crédito
+506,2025-03-22,Isabela Martins,Luminária de Mesa,Iluminação,Nordeste,1,185.00,0,185.00,Cartão de Crédito
+507,2026-08-24,Larissa Ribeiro,Cortina Blackout,Têxteis,Norte,3,230.00,5,655.50,Cartão de Débito
+508,2025-09-08,Bruno Costa,Tapete Decorativo,Decoração,Sudeste,2,320.00,0,640.00,PIX
+509,2025-02-26,Eduarda Rocha,Espelho Redondo,Decoração,Nordeste,5,260.00,10,1170.00,PIX
+510,2025-01-12,Carla Souza,Sofá 3 Lugares,Móveis,Sudeste,2,2450.00,15,4165.00,Cartão de Débito
+511,2025-09-23,Carla Souza,Cortina Blackout,Têxteis,Centro-Oeste,5,230.00,15,977.50,Cartão de Crédito
+512,2025-12-10,Natália Gomes,Luminária de Mesa,Iluminação,Sudeste,1,185.00,0,185.00,Cartão de Débito
+513,2026-08-14,Larissa Ribeiro,Cortina Blackout,Têxteis,Norte,1,230.00,0,230.00,Dinheiro
+514,2025-02-26,Henrique Melo,Espelho Redondo,Decoração,Sul,5,260.00,0,1300.00,Cartão de Crédito
+515,2025-04-16,Renata Araújo,Pendente LED,Iluminação,Sul,2,390.00,0,780.00,PIX
+516,2025-02-15,Paulo Ferreira,Guarda-Roupa,Móveis,Norte,5,2100.00,0,10500.00,Cartão de Crédito
+517,2026-01-28,Renata Araújo,Sofá 3 Lugares,Móveis,Nordeste,4,2450.00,0,9800.00,Cartão de Crédito
+518,2026-03-06,Daniel Lima,Sofá 3 Lugares,Móveis,Centro-Oeste,5,2450.00,15,10412.50,Cartão de Crédito
+519,2025-03-21,João Oliveira,Tapete Decorativo,Decoração,Centro-Oeste,3,320.00,0,960.00,PIX
+520,2025-08-17,Natália Gomes,Cortina Blackout,Têxteis,Sul,1,230.00,0,230.00,PIX
+521,2025-10-17,Natália Gomes,Tapete Decorativo,Decoração,Centro-Oeste,1,320.00,5,304.00,Cartão de Débito
+522,2025-01-09,Felipe Santos,Mesa de Jantar,Móveis,Nordeste,5,1800.00,5,8550.00,Cartão de Débito
+523,2026-09-30,Daniel Lima,Jogo de Almofadas,Têxteis,Sudeste,3,120.00,15,306.00,Cartão de Débito
+524,2026-07-14,Natália Gomes,Jogo de Almofadas,Têxteis,Nordeste,4,120.00,0,480.00,Cartão de Crédito
+525,2025-08-27,Isabela Martins,Sofá 3 Lugares,Móveis,Centro-Oeste,4,2450.00,0,9800.00,PIX
+526,2026-01-21,Paulo Ferreira,Pendente LED,Iluminação,Centro-Oeste,1,390.00,15,331.50,PIX
+527,2026-03-06,Henrique Melo,Guarda-Roupa,Móveis,Norte,5,2100.00,0,10500.00,Cartão de Crédito
+528,2025-08-26,Renata Araújo,Luminária de Mesa,Iluminação,Sul,1,185.00,0,185.00,Dinheiro
+529,2025-03-28,João Oliveira,Pendente LED,Iluminação,Norte,4,390.00,15,1326.00,Boleto
+530,2026-08-30,João Oliveira,Cadeira Estofada,Móveis,Norte,4,420.00,0,1680.00,Dinheiro
+531,2025-09-25,Paulo Ferreira,Cadeira Estofada,Móveis,Centro-Oeste,2,420.00,0,840.00,Dinheiro
+532,2025-10-06,Daniel Lima,Pendente LED,Iluminação,Norte,3,390.00,5,1111.50,Cartão de Crédito
+533,2025-06-09,Bruno Costa,Cadeira Estofada,Móveis,Nordeste,5,420.00,0,2100.00,Dinheiro
+534,2025-05-04,Isabela Martins,Espelho Redondo,Decoração,Centro-Oeste,3,260.00,5,741.00,Cartão de Crédito
+535,2025-09-29,Paulo Ferreira,Espelho Redondo,Decoração,Norte,3,260.00,5,741.00,PIX
+536,2026-09-10,Ana Silva,Cadeira Estofada,Móveis,Nordeste,3,420.00,15,1071.00,Cartão de Débito
+537,2025-09-12,Felipe Santos,Cadeira Estofada,Móveis,Sudeste,1,420.00,15,357.00,Boleto
+538,2025-06-28,Ana Silva,Sofá 3 Lugares,Móveis,Sudeste,3,2450.00,0,7350.00,Dinheiro
+539,2025-04-07,Henrique Melo,Cortina Blackout,Têxteis,Norte,5,230.00,0,1150.00,Cartão de Crédito
+540,2025-08-16,Carla Souza,Mesa de Jantar,Móveis,Nordeste,1,1800.00,0,1800.00,Dinheiro
+541,2026-08-24,Eduarda Rocha,Pendente LED,Iluminação,Norte,1,390.00,10,351.00,PIX
+542,2026-03-31,Natália Gomes,Mesa de Jantar,Móveis,Nordeste,2,1800.00,15,3060.00,PIX
+543,2026-04-18,Ana Silva,Pendente LED,Iluminação,Nordeste,1,390.00,0,390.00,Boleto
+544,2025-01-31,Gabriela Alves,Tapete Decorativo,Decoração,Sudeste,4,320.00,5,1216.00,Cartão de Crédito
+545,2025-10-09,Eduarda Rocha,Pendente LED,Iluminação,Sudeste,2,390.00,0,780.00,Cartão de Crédito
+546,2026-09-24,Daniel Lima,Sofá 3 Lugares,Móveis,Centro-Oeste,5,2450.00,10,11025.00,Dinheiro
+547,2025-03-04,Bruno Costa,Tapete Decorativo,Decoração,Centro-Oeste,5,320.00,5,1520.00,Dinheiro
+548,2026-06-23,Daniel Lima,Cadeira Estofada,Móveis,Sul,4,420.00,0,1680.00,PIX
+549,2026-07-12,Natália Gomes,Tapete Decorativo,Decoração,Sudeste,3,320.00,5,912.00,Cartão de Débito
+550,2026-02-02,Eduarda Rocha,Jogo de Almofadas,Têxteis,Nordeste,5,120.00,0,600.00,PIX
+551,2025-01-31,Renata Araújo,Pendente LED,Iluminação,Centro-Oeste,5,390.00,0,1950.00,PIX
+552,2026-08-22,Daniel Lima,Espelho Redondo,Decoração,Nordeste,5,260.00,0,1300.00,PIX
+553,2026-07-01,Paulo Ferreira,Guarda-Roupa,Móveis,Norte,2,2100.00,0,4200.00,Cartão de Crédito
+554,2025-06-27,Carla Souza,Jogo de Almofadas,Têxteis,Nordeste,4,120.00,0,480.00,Boleto
+555,2025-01-29,Marcos Pereira,Pendente LED,Iluminação,Centro-Oeste,3,390.00,10,1053.00,Boleto
+556,2025-07-12,Paulo Ferreira,Jogo de Almofadas,Têxteis,Sudeste,2,120.00,10,216.00,Boleto
+557,2025-02-08,Bruno Costa,Luminária de Mesa,Iluminação,Norte,2,185.00,5,351.50,Cartão de Crédito
+558,2026-06-24,Henrique Melo,Jogo de Almofadas,Têxteis,Norte,2,120.00,0,240.00,Cartão de Débito
+559,2025-12-15,Marcos Pereira,Jogo de Almofadas,Têxteis,Nordeste,2,120.00,0,240.00,Cartão de Débito
+560,2026-08-24,Marcos Pereira,Sofá 3 Lugares,Móveis,Nordeste,1,2450.00,0,2450.00,PIX
+561,2026-01-18,Marcos Pereira,Cortina Blackout,Têxteis,Sudeste,3,230.00,0,690.00,Boleto
+562,2025-11-27,Carla Souza,Mesa de Jantar,Móveis,Nordeste,3,1800.00,0,5400.00,Dinheiro
+563,2026-07-30,Marcos Pereira,Espelho Redondo,Decoração,Sul,3,260.00,0,780.00,Cartão de Débito
+564,2026-01-23,Eduarda Rocha,Guarda-Roupa,Móveis,Centro-Oeste,5,2100.00,0,10500.00,Cartão de Crédito
+565,2026-08-10,Gabriela Alves,Cadeira Estofada,Móveis,Sul,1,420.00,15,357.00,PIX
+566,2026-09-19,Daniel Lima,Cadeira Estofada,Móveis,Sul,5,420.00,0,2100.00,PIX
+567,2025-03-21,Daniel Lima,Espelho Redondo,Decoração,Centro-Oeste,2,260.00,0,520.00,Cartão de Débito
+568,2025-12-10,Henrique Melo,Cadeira Estofada,Móveis,Norte,1,420.00,15,357.00,Cartão de Débito
+569,2025-03-11,Felipe Santos,Guarda-Roupa,Móveis,Centro-Oeste,2,2100.00,15,3570.00,PIX
+570,2026-03-25,Marcos Pereira,Sofá 3 Lugares,Móveis,Sudeste,1,2450.00,5,2327.50,Cartão de Crédito
+571,2025-12-26,Isabela Martins,Tapete Decorativo,Decoração,Sudeste,4,320.00,5,1216.00,PIX
+572,2025-08-19,Carla Souza,Espelho Redondo,Decoração,Sudeste,5,260.00,15,1105.00,PIX
+573,2025-11-23,Eduarda Rocha,Sofá 3 Lugares,Móveis,Norte,3,2450.00,0,7350.00,PIX
+574,2025-06-14,Marcos Pereira,Pendente LED,Iluminação,Norte,2,390.00,5,741.00,Boleto
+575,2026-09-21,Renata Araújo,Mesa de Jantar,Móveis,Sudeste,3,1800.00,10,4860.00,PIX
+576,2026-03-21,Carla Souza,Tapete Decorativo,Decoração,Norte,2,320.00,10,576.00,PIX
+577,2026-02-24,Marcos Pereira,Pendente LED,Iluminação,Sul,2,390.00,0,780.00,Boleto
+578,2025-09-01,Bruno Costa,Luminária de Mesa,Iluminação,Norte,3,185.00,0,555.00,Dinheiro
+579,2025-06-07,Ana Silva,Jogo de Almofadas,Têxteis,Centro-Oeste,5,120.00,5,570.00,PIX
+580,2026-09-07,Henrique Melo,Tapete Decorativo,Decoração,Nordeste,1,320.00,0,320.00,PIX
+581,2025-10-26,Bruno Costa,Sofá 3 Lugares,Móveis,Sudeste,2,2450.00,0,4900.00,PIX
+582,2026-05-16,Renata Araújo,Luminária de Mesa,Iluminação,Centro-Oeste,4,185.00,5,703.00,PIX
+583,2026-01-15,Renata Araújo,Cortina Blackout,Têxteis,Sudeste,4,230.00,0,920.00,Cartão de Débito
+584,2025-09-27,Henrique Melo,Cadeira Estofada,Móveis,Sudeste,4,420.00,0,1680.00,Cartão de Débito
+585,2025-03-05,Carla Souza,Guarda-Roupa,Móveis,Norte,3,2100.00,10,5670.00,PIX
+586,2026-08-27,Daniel Lima,Pendente LED,Iluminação,Sul,5,390.00,5,1852.50,PIX
+587,2026-07-03,Larissa Ribeiro,Tapete Decorativo,Decoração,Sudeste,5,320.00,5,1520.00,Boleto
+588,2025-03-22,Gabriela Alves,Guarda-Roupa,Móveis,Norte,4,2100.00,0,8400.00,Boleto
+589,2026-09-28,Carla Souza,Jogo de Almofadas,Têxteis,Norte,5,120.00,10,540.00,Dinheiro
+590,2025-07-17,Carla Souza,Cadeira Estofada,Móveis,Norte,2,420.00,0,840.00,Dinheiro
+591,2025-06-01,Paulo Ferreira,Mesa de Jantar,Móveis,Sul,4,1800.00,0,7200.00,Cartão de Débito
+592,2026-02-02,Isabela Martins,Pendente LED,Iluminação,Sudeste,1,390.00,0,390.00,Boleto
+593,2026-04-15,Renata Araújo,Pendente LED,Iluminação,Norte,3,390.00,10,1053.00,Boleto
+594,2025-04-26,Gabriela Alves,Jogo de Almofadas,Têxteis,Nordeste,5,120.00,5,570.00,Cartão de Crédito
+595,2025-04-13,Renata Araújo,Jogo de Almofadas,Têxteis,Norte,5,120.00,10,540.00,Boleto
+596,2025-12-19,Renata Araújo,Mesa de Jantar,Móveis,Sudeste,3,1800.00,10,4860.00,Cartão de Débito
+597,2026-09-16,Henrique Melo,Tapete Decorativo,Decoração,Norte,4,320.00,10,1152.00,Cartão de Crédito
+598,2026-09-26,João Oliveira,Luminária de Mesa,Iluminação,Sudeste,4,185.00,0,740.00,PIX
+599,2025-09-01,Ana Silva,Tapete Decorativo,Decoração,Sudeste,3,320.00,15,816.00,Cartão de Débito
+600,2025-11-07,Eduarda Rocha,Pendente LED,Iluminação,Centro-Oeste,1,390.00,0,390.00,Dinheiro
+601,2025-11-04,Marcos Pereira,Mesa de Jantar,Móveis,Sudeste,2,1800.00,0,3600.00,Cartão de Débito
+602,2025-04-02,Daniel Lima,Luminária de Mesa,Iluminação,Sudeste,4,185.00,10,666.00,Cartão de Crédito
+603,2026-01-18,Paulo Ferreira,Tapete Decorativo,Decoração,Norte,4,320.00,10,1152.00,Boleto
+604,2026-06-03,Gabriela Alves,Cadeira Estofada,Móveis,Nordeste,1,420.00,0,420.00,Boleto
+605,2025-07-17,Renata Araújo,Jogo de Almofadas,Têxteis,Nordeste,1,120.00,0,120.00,PIX
+606,2025-02-21,Renata Araújo,Guarda-Roupa,Móveis,Centro-Oeste,1,2100.00,5,1995.00,Cartão de Crédito
+607,2026-06-02,Gabriela Alves,Luminária de Mesa,Iluminação,Norte,3,185.00,5,527.25,PIX
+608,2026-09-01,Henrique Melo,Guarda-Roupa,Móveis,Nordeste,3,2100.00,5,5985.00,Dinheiro
+609,2025-12-19,Carla Souza,Jogo de Almofadas,Têxteis,Centro-Oeste,5,120.00,0,600.00,PIX
+610,2025-02-20,Carla Souza,Luminária de Mesa,Iluminação,Sul,1,185.00,5,175.75,Cartão de Crédito
+611,2025-07-31,Eduarda Rocha,Guarda-Roupa,Móveis,Sudeste,2,2100.00,15,3570.00,Boleto
+612,2025-05-16,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Nordeste,1,2450.00,5,2327.50,Boleto
+613,2026-09-15,Natália Gomes,Sofá 3 Lugares,Móveis,Centro-Oeste,2,2450.00,0,4900.00,Cartão de Débito
+614,2026-04-16,Eduarda Rocha,Tapete Decorativo,Decoração,Nordeste,4,320.00,0,1280.00,Dinheiro
+615,2026-02-11,João Oliveira,Luminária de Mesa,Iluminação,Norte,5,185.00,10,832.50,PIX
+616,2026-09-01,João Oliveira,Cortina Blackout,Têxteis,Centro-Oeste,3,230.00,10,621.00,Cartão de Débito
+617,2025-12-11,Eduarda Rocha,Mesa de Jantar,Móveis,Centro-Oeste,4,1800.00,0,7200.00,Cartão de Débito
+618,2025-06-03,Isabela Martins,Luminária de Mesa,Iluminação,Nordeste,3,185.00,0,555.00,PIX
+619,2025-11-24,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Nordeste,4,120.00,15,408.00,PIX
+620,2026-03-05,Gabriela Alves,Espelho Redondo,Decoração,Sudeste,3,260.00,0,780.00,PIX
+621,2025-12-18,Marcos Pereira,Jogo de Almofadas,Têxteis,Nordeste,5,120.00,0,600.00,Boleto
+622,2025-11-04,Paulo Ferreira,Espelho Redondo,Decoração,Nordeste,3,260.00,10,702.00,Boleto
+623,2026-04-28,Carla Souza,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,0,1260.00,Boleto
+624,2025-04-02,Daniel Lima,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,15,1071.00,Cartão de Crédito
+625,2026-01-16,Eduarda Rocha,Luminária de Mesa,Iluminação,Sul,4,185.00,0,740.00,Cartão de Débito
+626,2025-02-24,Paulo Ferreira,Espelho Redondo,Decoração,Sul,1,260.00,5,247.00,Boleto
+627,2025-07-19,Isabela Martins,Jogo de Almofadas,Têxteis,Norte,1,120.00,5,114.00,Dinheiro
+628,2025-02-25,Paulo Ferreira,Cortina Blackout,Têxteis,Nordeste,3,230.00,5,655.50,Cartão de Crédito
+629,2026-08-07,Renata Araújo,Guarda-Roupa,Móveis,Sudeste,3,2100.00,5,5985.00,Cartão de Crédito
+630,2026-05-15,Felipe Santos,Pendente LED,Iluminação,Nordeste,2,390.00,0,780.00,Cartão de Débito
+631,2025-10-08,Daniel Lima,Sofá 3 Lugares,Móveis,Nordeste,1,2450.00,5,2327.50,Boleto
+632,2025-05-13,João Oliveira,Cadeira Estofada,Móveis,Sudeste,4,420.00,0,1680.00,Dinheiro
+633,2026-01-28,Ana Silva,Tapete Decorativo,Decoração,Norte,4,320.00,5,1216.00,Boleto
+634,2025-11-26,Natália Gomes,Guarda-Roupa,Móveis,Sul,3,2100.00,0,6300.00,Cartão de Crédito
+635,2025-09-12,Daniel Lima,Sofá 3 Lugares,Móveis,Centro-Oeste,1,2450.00,15,2082.50,Cartão de Débito
+636,2026-05-31,João Oliveira,Cadeira Estofada,Móveis,Centro-Oeste,1,420.00,5,399.00,Cartão de Crédito
+637,2025-10-25,Henrique Melo,Mesa de Jantar,Móveis,Sul,1,1800.00,0,1800.00,Boleto
+638,2025-05-18,Felipe Santos,Cortina Blackout,Têxteis,Sudeste,3,230.00,5,655.50,Cartão de Débito
+639,2025-01-20,Daniel Lima,Guarda-Roupa,Móveis,Nordeste,2,2100.00,5,3990.00,Cartão de Crédito
+640,2026-06-01,Carla Souza,Guarda-Roupa,Móveis,Norte,1,2100.00,10,1890.00,Cartão de Débito
+641,2025-09-19,Natália Gomes,Sofá 3 Lugares,Móveis,Sul,4,2450.00,15,8330.00,Boleto
+642,2025-04-21,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Norte,5,2450.00,0,12250.00,PIX
+643,2026-01-25,Bruno Costa,Mesa de Jantar,Móveis,Sul,4,1800.00,5,6840.00,Cartão de Débito
+644,2025-01-10,Eduarda Rocha,Espelho Redondo,Decoração,Sudeste,2,260.00,0,520.00,PIX
+645,2026-09-13,Marcos Pereira,Cortina Blackout,Têxteis,Nordeste,3,230.00,10,621.00,Dinheiro
+646,2026-09-25,Bruno Costa,Mesa de Jantar,Móveis,Centro-Oeste,5,1800.00,15,7650.00,PIX
+647,2026-09-16,Daniel Lima,Mesa de Jantar,Móveis,Centro-Oeste,4,1800.00,0,7200.00,Boleto
+648,2026-02-24,Eduarda Rocha,Guarda-Roupa,Móveis,Nordeste,3,2100.00,15,5355.00,PIX
+649,2026-05-08,Felipe Santos,Cortina Blackout,Têxteis,Nordeste,4,230.00,0,920.00,PIX
+650,2026-08-11,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Sudeste,1,2450.00,0,2450.00,Cartão de Crédito
+651,2025-04-14,Renata Araújo,Mesa de Jantar,Móveis,Centro-Oeste,5,1800.00,0,9000.00,Cartão de Crédito
+652,2026-04-21,Ana Silva,Espelho Redondo,Decoração,Norte,3,260.00,0,780.00,Cartão de Crédito
+653,2025-11-17,Gabriela Alves,Sofá 3 Lugares,Móveis,Norte,3,2450.00,0,7350.00,PIX
+654,2025-06-24,Felipe Santos,Sofá 3 Lugares,Móveis,Centro-Oeste,1,2450.00,0,2450.00,Dinheiro
+655,2025-04-06,Felipe Santos,Jogo de Almofadas,Têxteis,Centro-Oeste,3,120.00,15,306.00,Cartão de Crédito
+656,2026-04-13,Eduarda Rocha,Mesa de Jantar,Móveis,Sudeste,4,1800.00,5,6840.00,Dinheiro
+657,2025-05-16,Marcos Pereira,Tapete Decorativo,Decoração,Norte,2,320.00,0,640.00,Cartão de Crédito
+658,2026-05-10,Natália Gomes,Mesa de Jantar,Móveis,Sul,4,1800.00,10,6480.00,Dinheiro
+659,2026-01-03,João Oliveira,Cadeira Estofada,Móveis,Norte,5,420.00,5,1995.00,Cartão de Crédito
+660,2026-02-26,Henrique Melo,Espelho Redondo,Decoração,Norte,4,260.00,0,1040.00,PIX
+661,2026-06-22,Natália Gomes,Luminária de Mesa,Iluminação,Sul,3,185.00,0,555.00,Boleto
+662,2026-06-20,Marcos Pereira,Guarda-Roupa,Móveis,Sul,3,2100.00,10,5670.00,PIX
+663,2025-12-21,Larissa Ribeiro,Tapete Decorativo,Decoração,Sudeste,2,320.00,5,608.00,Cartão de Crédito
+664,2025-01-12,Larissa Ribeiro,Cortina Blackout,Têxteis,Nordeste,5,230.00,0,1150.00,Boleto
+665,2025-03-18,Natália Gomes,Espelho Redondo,Decoração,Sudeste,4,260.00,0,1040.00,Cartão de Débito
+666,2025-02-21,Isabela Martins,Guarda-Roupa,Móveis,Nordeste,3,2100.00,0,6300.00,Boleto
+667,2025-03-22,Henrique Melo,Tapete Decorativo,Decoração,Sudeste,4,320.00,0,1280.00,Boleto
+668,2026-04-03,Felipe Santos,Espelho Redondo,Decoração,Norte,1,260.00,5,247.00,Dinheiro
+669,2026-02-27,Ana Silva,Sofá 3 Lugares,Móveis,Sul,1,2450.00,5,2327.50,Boleto
+670,2026-09-26,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Centro-Oeste,1,2450.00,10,2205.00,Boleto
+671,2026-04-13,Felipe Santos,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,15,391.00,PIX
+672,2026-07-28,Natália Gomes,Guarda-Roupa,Móveis,Sul,4,2100.00,0,8400.00,Boleto
+673,2026-04-09,Bruno Costa,Espelho Redondo,Decoração,Norte,3,260.00,15,663.00,Cartão de Crédito
+674,2025-10-26,Isabela Martins,Sofá 3 Lugares,Móveis,Sul,3,2450.00,0,7350.00,Cartão de Débito
+675,2026-05-20,Carla Souza,Mesa de Jantar,Móveis,Sudeste,1,1800.00,0,1800.00,PIX
+676,2025-07-12,Bruno Costa,Luminária de Mesa,Iluminação,Sudeste,5,185.00,0,925.00,Cartão de Crédito
+677,2025-12-13,Bruno Costa,Espelho Redondo,Decoração,Sudeste,2,260.00,15,442.00,PIX
+678,2026-04-14,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Sul,1,120.00,5,114.00,Boleto
+679,2026-06-28,Marcos Pereira,Cadeira Estofada,Móveis,Norte,4,420.00,0,1680.00,Boleto
+680,2026-06-05,Natália Gomes,Tapete Decorativo,Decoração,Nordeste,5,320.00,5,1520.00,Boleto
+681,2026-02-01,Larissa Ribeiro,Cadeira Estofada,Móveis,Sul,2,420.00,0,840.00,Boleto
+682,2026-03-05,João Oliveira,Pendente LED,Iluminação,Nordeste,5,390.00,5,1852.50,Cartão de Débito
+683,2026-04-09,Natália Gomes,Tapete Decorativo,Decoração,Nordeste,3,320.00,0,960.00,Cartão de Crédito
+684,2026-06-09,Eduarda Rocha,Tapete Decorativo,Decoração,Sul,5,320.00,15,1360.00,Cartão de Débito
+685,2025-08-03,João Oliveira,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,0,460.00,Cartão de Débito
+686,2026-07-10,Marcos Pereira,Cadeira Estofada,Móveis,Centro-Oeste,2,420.00,10,756.00,PIX
+687,2026-08-20,João Oliveira,Pendente LED,Iluminação,Sudeste,5,390.00,5,1852.50,Boleto
+688,2026-06-20,Bruno Costa,Luminária de Mesa,Iluminação,Norte,4,185.00,0,740.00,Dinheiro
+689,2025-02-27,Daniel Lima,Cadeira Estofada,Móveis,Centro-Oeste,1,420.00,15,357.00,Cartão de Crédito
+690,2025-03-05,Marcos Pereira,Luminária de Mesa,Iluminação,Centro-Oeste,3,185.00,0,555.00,Cartão de Crédito
+691,2026-04-09,Bruno Costa,Cortina Blackout,Têxteis,Sul,1,230.00,0,230.00,Boleto
+692,2025-09-01,Isabela Martins,Guarda-Roupa,Móveis,Centro-Oeste,5,2100.00,5,9975.00,PIX
+693,2025-11-17,Isabela Martins,Tapete Decorativo,Decoração,Norte,4,320.00,5,1216.00,PIX
+694,2026-03-30,Paulo Ferreira,Luminária de Mesa,Iluminação,Nordeste,2,185.00,10,333.00,Cartão de Débito
+695,2026-09-10,Daniel Lima,Jogo de Almofadas,Têxteis,Nordeste,5,120.00,15,510.00,Cartão de Débito
+696,2025-03-18,Carla Souza,Espelho Redondo,Decoração,Nordeste,2,260.00,15,442.00,Boleto
+697,2026-03-15,Eduarda Rocha,Mesa de Jantar,Móveis,Sul,4,1800.00,0,7200.00,Cartão de Débito
+698,2025-09-19,Ana Silva,Cadeira Estofada,Móveis,Centro-Oeste,2,420.00,10,756.00,Dinheiro
+699,2025-11-27,João Oliveira,Cadeira Estofada,Móveis,Norte,1,420.00,0,420.00,Boleto
+700,2026-07-18,Felipe Santos,Luminária de Mesa,Iluminação,Norte,4,185.00,10,666.00,Cartão de Débito
+701,2026-06-18,Bruno Costa,Cortina Blackout,Têxteis,Sul,2,230.00,0,460.00,Cartão de Crédito
+702,2026-02-18,Bruno Costa,Tapete Decorativo,Decoração,Centro-Oeste,5,320.00,10,1440.00,Cartão de Crédito
+703,2026-01-05,Eduarda Rocha,Guarda-Roupa,Móveis,Nordeste,3,2100.00,0,6300.00,Boleto
+704,2025-01-10,Bruno Costa,Cortina Blackout,Têxteis,Centro-Oeste,4,230.00,10,828.00,Dinheiro
+705,2025-09-07,Ana Silva,Guarda-Roupa,Móveis,Centro-Oeste,5,2100.00,10,9450.00,Dinheiro
+706,2026-07-08,Marcos Pereira,Mesa de Jantar,Móveis,Centro-Oeste,4,1800.00,0,7200.00,PIX
+707,2026-06-05,Henrique Melo,Cortina Blackout,Têxteis,Sudeste,3,230.00,10,621.00,PIX
+708,2026-06-11,Bruno Costa,Luminária de Mesa,Iluminação,Norte,2,185.00,0,370.00,Cartão de Crédito
+709,2025-03-09,Daniel Lima,Cortina Blackout,Têxteis,Nordeste,5,230.00,0,1150.00,Dinheiro
+710,2026-03-22,Larissa Ribeiro,Mesa de Jantar,Móveis,Norte,2,1800.00,10,3240.00,Cartão de Crédito
+711,2025-12-06,Ana Silva,Sofá 3 Lugares,Móveis,Norte,4,2450.00,15,8330.00,PIX
+712,2026-07-26,Bruno Costa,Sofá 3 Lugares,Móveis,Sul,2,2450.00,0,4900.00,Cartão de Crédito
+713,2026-04-07,Larissa Ribeiro,Luminária de Mesa,Iluminação,Sudeste,4,185.00,5,703.00,Dinheiro
+714,2025-05-02,Isabela Martins,Pendente LED,Iluminação,Norte,1,390.00,5,370.50,Boleto
+715,2025-03-16,Felipe Santos,Mesa de Jantar,Móveis,Sul,5,1800.00,0,9000.00,PIX
+716,2025-03-30,Eduarda Rocha,Luminária de Mesa,Iluminação,Sudeste,3,185.00,10,499.50,Dinheiro
+717,2025-06-10,Isabela Martins,Tapete Decorativo,Decoração,Nordeste,1,320.00,5,304.00,Cartão de Crédito
+718,2025-05-28,Eduarda Rocha,Tapete Decorativo,Decoração,Centro-Oeste,5,320.00,0,1600.00,PIX
+719,2025-05-07,Ana Silva,Cortina Blackout,Têxteis,Norte,5,230.00,0,1150.00,Boleto
+720,2026-07-15,Bruno Costa,Jogo de Almofadas,Têxteis,Centro-Oeste,4,120.00,10,432.00,Cartão de Crédito
+721,2026-06-09,Carla Souza,Pendente LED,Iluminação,Nordeste,2,390.00,5,741.00,Cartão de Crédito
+722,2025-07-18,Bruno Costa,Guarda-Roupa,Móveis,Nordeste,5,2100.00,0,10500.00,Boleto
+723,2026-07-17,Bruno Costa,Sofá 3 Lugares,Móveis,Centro-Oeste,5,2450.00,5,11637.50,PIX
+724,2026-08-18,Henrique Melo,Luminária de Mesa,Iluminação,Centro-Oeste,1,185.00,0,185.00,Cartão de Débito
+725,2025-10-19,João Oliveira,Cadeira Estofada,Móveis,Norte,2,420.00,0,840.00,Cartão de Crédito
+726,2025-12-03,João Oliveira,Pendente LED,Iluminação,Centro-Oeste,4,390.00,5,1482.00,Boleto
+727,2026-01-09,Natália Gomes,Cadeira Estofada,Móveis,Centro-Oeste,5,420.00,10,1890.00,Dinheiro
+728,2025-09-10,Natália Gomes,Cadeira Estofada,Móveis,Nordeste,1,420.00,0,420.00,Dinheiro
+729,2025-12-06,Renata Araújo,Luminária de Mesa,Iluminação,Sudeste,3,185.00,0,555.00,Dinheiro
+730,2026-05-14,Isabela Martins,Espelho Redondo,Decoração,Norte,3,260.00,0,780.00,Cartão de Crédito
+731,2025-05-24,Renata Araújo,Jogo de Almofadas,Têxteis,Sul,1,120.00,0,120.00,Cartão de Crédito
+732,2025-03-19,Renata Araújo,Luminária de Mesa,Iluminação,Norte,1,185.00,15,157.25,Boleto
+733,2026-02-19,Natália Gomes,Sofá 3 Lugares,Móveis,Sul,5,2450.00,10,11025.00,Cartão de Crédito
+734,2026-07-11,Renata Araújo,Sofá 3 Lugares,Móveis,Sul,5,2450.00,0,12250.00,Dinheiro
+735,2025-08-17,Renata Araújo,Cadeira Estofada,Móveis,Sul,3,420.00,5,1197.00,Cartão de Débito
+736,2026-06-07,Bruno Costa,Cadeira Estofada,Móveis,Sudeste,4,420.00,10,1512.00,Cartão de Débito
+737,2025-09-02,Paulo Ferreira,Cortina Blackout,Têxteis,Sul,1,230.00,15,195.50,Cartão de Crédito
+738,2025-06-13,Carla Souza,Cortina Blackout,Têxteis,Sul,2,230.00,5,437.00,Boleto
+739,2025-02-11,Daniel Lima,Cadeira Estofada,Móveis,Sudeste,4,420.00,0,1680.00,Cartão de Crédito
+740,2025-08-28,Ana Silva,Mesa de Jantar,Móveis,Nordeste,3,1800.00,0,5400.00,Boleto
+741,2026-04-11,Renata Araújo,Pendente LED,Iluminação,Norte,4,390.00,5,1482.00,PIX
+742,2026-06-18,Larissa Ribeiro,Pendente LED,Iluminação,Centro-Oeste,1,390.00,15,331.50,Cartão de Débito
+743,2025-06-28,Gabriela Alves,Jogo de Almofadas,Têxteis,Sudeste,5,120.00,10,540.00,Cartão de Débito
+744,2025-09-15,Gabriela Alves,Jogo de Almofadas,Têxteis,Nordeste,1,120.00,10,108.00,Boleto
+745,2026-05-14,Natália Gomes,Tapete Decorativo,Decoração,Sudeste,3,320.00,0,960.00,Boleto
+746,2026-03-27,Carla Souza,Sofá 3 Lugares,Móveis,Nordeste,5,2450.00,0,12250.00,PIX
+747,2025-06-03,Carla Souza,Cortina Blackout,Têxteis,Nordeste,3,230.00,0,690.00,Cartão de Débito
+748,2025-08-24,Gabriela Alves,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,15,102.00,PIX
+749,2025-08-04,João Oliveira,Espelho Redondo,Decoração,Nordeste,4,260.00,5,988.00,Dinheiro
+750,2025-05-11,João Oliveira,Sofá 3 Lugares,Móveis,Sul,2,2450.00,0,4900.00,Cartão de Crédito
+751,2026-08-10,Carla Souza,Cadeira Estofada,Móveis,Norte,5,420.00,0,2100.00,Cartão de Crédito
+752,2026-02-20,João Oliveira,Luminária de Mesa,Iluminação,Sul,2,185.00,10,333.00,PIX
+753,2026-04-05,João Oliveira,Luminária de Mesa,Iluminação,Sudeste,1,185.00,0,185.00,Dinheiro
+754,2026-09-08,Carla Souza,Cadeira Estofada,Móveis,Sul,2,420.00,5,798.00,Cartão de Crédito
+755,2025-06-21,Marcos Pereira,Jogo de Almofadas,Têxteis,Centro-Oeste,5,120.00,0,600.00,Dinheiro
+756,2025-08-24,Gabriela Alves,Jogo de Almofadas,Têxteis,Sudeste,5,120.00,0,600.00,Cartão de Crédito
+757,2026-06-20,Paulo Ferreira,Mesa de Jantar,Móveis,Sul,1,1800.00,0,1800.00,Dinheiro
+758,2025-07-01,Henrique Melo,Cadeira Estofada,Móveis,Sul,5,420.00,0,2100.00,Boleto
+759,2025-05-01,Bruno Costa,Sofá 3 Lugares,Móveis,Sudeste,5,2450.00,10,11025.00,Cartão de Crédito
+760,2026-03-18,Isabela Martins,Jogo de Almofadas,Têxteis,Sudeste,5,120.00,0,600.00,Cartão de Débito
+761,2025-08-23,Natália Gomes,Sofá 3 Lugares,Móveis,Sudeste,5,2450.00,5,11637.50,Dinheiro
+762,2026-08-13,Bruno Costa,Pendente LED,Iluminação,Sudeste,5,390.00,15,1657.50,Cartão de Crédito
+763,2025-03-27,Eduarda Rocha,Luminária de Mesa,Iluminação,Sul,4,185.00,0,740.00,Boleto
+764,2025-01-06,Marcos Pereira,Tapete Decorativo,Decoração,Norte,3,320.00,0,960.00,Boleto
+765,2025-01-08,Gabriela Alves,Cortina Blackout,Têxteis,Nordeste,1,230.00,10,207.00,Cartão de Débito
+766,2025-06-08,Gabriela Alves,Tapete Decorativo,Decoração,Sul,3,320.00,0,960.00,Cartão de Débito
+767,2026-08-02,Felipe Santos,Luminária de Mesa,Iluminação,Sul,5,185.00,5,878.75,Cartão de Débito
+768,2026-07-20,Natália Gomes,Tapete Decorativo,Decoração,Sul,2,320.00,5,608.00,Dinheiro
+769,2026-07-23,Henrique Melo,Cadeira Estofada,Móveis,Centro-Oeste,3,420.00,10,1134.00,Cartão de Débito
+770,2026-02-12,Marcos Pereira,Jogo de Almofadas,Têxteis,Nordeste,3,120.00,15,306.00,PIX
+771,2025-06-15,Bruno Costa,Guarda-Roupa,Móveis,Nordeste,4,2100.00,15,7140.00,Boleto
+772,2026-09-21,Marcos Pereira,Tapete Decorativo,Decoração,Norte,3,320.00,10,864.00,Cartão de Crédito
+773,2025-05-29,Henrique Melo,Tapete Decorativo,Decoração,Sul,1,320.00,0,320.00,Dinheiro
+774,2025-08-16,Felipe Santos,Mesa de Jantar,Móveis,Norte,1,1800.00,0,1800.00,Boleto
+775,2026-09-21,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Sul,4,2450.00,5,9310.00,Cartão de Débito
+776,2026-05-22,Henrique Melo,Jogo de Almofadas,Têxteis,Norte,1,120.00,0,120.00,Cartão de Crédito
+777,2025-02-04,Natália Gomes,Cortina Blackout,Têxteis,Sul,3,230.00,0,690.00,Boleto
+778,2025-06-23,Larissa Ribeiro,Cortina Blackout,Têxteis,Norte,2,230.00,10,414.00,Cartão de Débito
+779,2025-03-30,Eduarda Rocha,Guarda-Roupa,Móveis,Sudeste,1,2100.00,0,2100.00,Cartão de Débito
+780,2025-07-25,Isabela Martins,Tapete Decorativo,Decoração,Norte,4,320.00,10,1152.00,PIX
+781,2026-07-27,Renata Araújo,Mesa de Jantar,Móveis,Sul,5,1800.00,0,9000.00,Cartão de Débito
+782,2026-09-13,Daniel Lima,Pendente LED,Iluminação,Sudeste,3,390.00,0,1170.00,Dinheiro
+783,2025-06-29,Gabriela Alves,Jogo de Almofadas,Têxteis,Sul,1,120.00,0,120.00,PIX
+784,2025-10-29,Felipe Santos,Cortina Blackout,Têxteis,Norte,1,230.00,10,207.00,Boleto
+785,2025-09-14,Marcos Pereira,Luminária de Mesa,Iluminação,Sudeste,5,185.00,10,832.50,Dinheiro
+786,2025-12-14,Natália Gomes,Jogo de Almofadas,Têxteis,Sudeste,4,120.00,0,480.00,Dinheiro
+787,2025-04-30,Eduarda Rocha,Jogo de Almofadas,Têxteis,Norte,1,120.00,5,114.00,Dinheiro
+788,2026-02-27,Felipe Santos,Guarda-Roupa,Móveis,Sul,2,2100.00,0,4200.00,Boleto
+789,2025-10-22,Bruno Costa,Sofá 3 Lugares,Móveis,Sudeste,3,2450.00,0,7350.00,Cartão de Débito
+790,2026-05-03,Felipe Santos,Mesa de Jantar,Móveis,Centro-Oeste,5,1800.00,0,9000.00,Cartão de Crédito
+791,2025-07-14,Henrique Melo,Jogo de Almofadas,Têxteis,Nordeste,3,120.00,0,360.00,Cartão de Crédito
+792,2025-08-23,Daniel Lima,Guarda-Roupa,Móveis,Nordeste,3,2100.00,0,6300.00,Boleto
+793,2025-05-03,Renata Araújo,Pendente LED,Iluminação,Norte,2,390.00,0,780.00,Dinheiro
+794,2025-02-13,Paulo Ferreira,Jogo de Almofadas,Têxteis,Sudeste,1,120.00,10,108.00,Cartão de Débito
+795,2026-08-12,Paulo Ferreira,Jogo de Almofadas,Têxteis,Centro-Oeste,3,120.00,5,342.00,Dinheiro
+796,2026-02-12,Daniel Lima,Cadeira Estofada,Móveis,Sul,5,420.00,0,2100.00,Cartão de Crédito
+797,2026-05-05,Isabela Martins,Sofá 3 Lugares,Móveis,Norte,5,2450.00,5,11637.50,Boleto
+798,2025-06-28,Henrique Melo,Pendente LED,Iluminação,Norte,4,390.00,15,1326.00,Boleto
+799,2025-01-09,Ana Silva,Espelho Redondo,Decoração,Nordeste,3,260.00,15,663.00,Dinheiro
+800,2026-01-06,João Oliveira,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,0,120.00,Cartão de Crédito
+801,2025-10-03,Henrique Melo,Cortina Blackout,Têxteis,Sul,3,230.00,0,690.00,Cartão de Débito
+802,2026-03-11,Daniel Lima,Pendente LED,Iluminação,Sudeste,2,390.00,5,741.00,Cartão de Débito
+803,2026-04-07,Carla Souza,Pendente LED,Iluminação,Sul,4,390.00,0,1560.00,Cartão de Crédito
+804,2025-10-04,Natália Gomes,Jogo de Almofadas,Têxteis,Nordeste,2,120.00,0,240.00,Boleto
+805,2025-05-30,Natália Gomes,Tapete Decorativo,Decoração,Nordeste,4,320.00,0,1280.00,Dinheiro
+806,2026-05-27,Carla Souza,Sofá 3 Lugares,Móveis,Sul,2,2450.00,5,4655.00,Boleto
+807,2025-09-14,Isabela Martins,Pendente LED,Iluminação,Sul,4,390.00,0,1560.00,PIX
+808,2025-06-17,Ana Silva,Tapete Decorativo,Decoração,Nordeste,1,320.00,15,272.00,Cartão de Débito
+809,2025-12-09,Eduarda Rocha,Espelho Redondo,Decoração,Centro-Oeste,1,260.00,5,247.00,Cartão de Débito
+810,2025-12-19,Ana Silva,Cortina Blackout,Têxteis,Sudeste,5,230.00,0,1150.00,PIX
+811,2026-08-14,João Oliveira,Pendente LED,Iluminação,Sul,5,390.00,0,1950.00,Cartão de Crédito
+812,2026-06-07,Henrique Melo,Luminária de Mesa,Iluminação,Sudeste,3,185.00,0,555.00,PIX
+813,2026-04-20,Larissa Ribeiro,Tapete Decorativo,Decoração,Nordeste,5,320.00,0,1600.00,Cartão de Crédito
+814,2026-09-20,João Oliveira,Pendente LED,Iluminação,Sudeste,4,390.00,15,1326.00,PIX
+815,2025-08-22,Felipe Santos,Mesa de Jantar,Móveis,Centro-Oeste,2,1800.00,0,3600.00,Cartão de Débito
+816,2026-02-09,Eduarda Rocha,Luminária de Mesa,Iluminação,Sudeste,5,185.00,15,786.25,Cartão de Débito
+817,2026-02-28,Carla Souza,Jogo de Almofadas,Têxteis,Nordeste,5,120.00,5,570.00,PIX
+818,2025-09-15,Marcos Pereira,Cadeira Estofada,Móveis,Norte,2,420.00,15,714.00,Cartão de Crédito
+819,2025-04-08,Bruno Costa,Cadeira Estofada,Móveis,Sudeste,4,420.00,0,1680.00,Boleto
+820,2026-06-21,Natália Gomes,Sofá 3 Lugares,Móveis,Norte,1,2450.00,5,2327.50,PIX
+821,2025-03-28,Larissa Ribeiro,Luminária de Mesa,Iluminação,Sudeste,5,185.00,0,925.00,Cartão de Débito
+822,2025-10-18,Henrique Melo,Guarda-Roupa,Móveis,Nordeste,2,2100.00,15,3570.00,Cartão de Crédito
+823,2025-02-05,Larissa Ribeiro,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,0,460.00,Cartão de Débito
+824,2025-10-06,Isabela Martins,Espelho Redondo,Decoração,Sudeste,4,260.00,10,936.00,Cartão de Crédito
+825,2026-09-04,Henrique Melo,Cortina Blackout,Têxteis,Sul,2,230.00,10,414.00,Dinheiro
+826,2025-12-22,Henrique Melo,Cortina Blackout,Têxteis,Sul,5,230.00,0,1150.00,Cartão de Crédito
+827,2026-01-10,Gabriela Alves,Mesa de Jantar,Móveis,Centro-Oeste,4,1800.00,0,7200.00,Cartão de Crédito
+828,2026-06-20,Paulo Ferreira,Luminária de Mesa,Iluminação,Nordeste,1,185.00,0,185.00,Cartão de Débito
+829,2025-01-09,Marcos Pereira,Luminária de Mesa,Iluminação,Sudeste,4,185.00,10,666.00,Dinheiro
+830,2025-10-27,João Oliveira,Luminária de Mesa,Iluminação,Nordeste,1,185.00,5,175.75,PIX
+831,2026-02-26,Renata Araújo,Cortina Blackout,Têxteis,Sul,3,230.00,0,690.00,Dinheiro
+832,2026-02-04,Paulo Ferreira,Tapete Decorativo,Decoração,Sudeste,2,320.00,0,640.00,Cartão de Crédito
+833,2025-09-03,Isabela Martins,Luminária de Mesa,Iluminação,Sul,1,185.00,5,175.75,Cartão de Débito
+834,2026-02-27,Daniel Lima,Luminária de Mesa,Iluminação,Norte,5,185.00,0,925.00,Cartão de Crédito
+835,2026-04-12,João Oliveira,Cadeira Estofada,Móveis,Sudeste,3,420.00,0,1260.00,Cartão de Débito
+836,2025-11-25,Ana Silva,Jogo de Almofadas,Têxteis,Nordeste,4,120.00,0,480.00,PIX
+837,2025-04-15,Eduarda Rocha,Cortina Blackout,Têxteis,Centro-Oeste,1,230.00,0,230.00,Cartão de Crédito
+838,2025-04-03,Carla Souza,Espelho Redondo,Decoração,Norte,1,260.00,0,260.00,Dinheiro
+839,2025-11-16,Natália Gomes,Guarda-Roupa,Móveis,Sudeste,3,2100.00,5,5985.00,Cartão de Débito
+840,2025-03-24,Paulo Ferreira,Espelho Redondo,Decoração,Nordeste,1,260.00,0,260.00,PIX
+841,2026-07-11,Henrique Melo,Luminária de Mesa,Iluminação,Nordeste,4,185.00,0,740.00,Cartão de Crédito
+842,2025-05-05,Natália Gomes,Luminária de Mesa,Iluminação,Nordeste,4,185.00,0,740.00,Dinheiro
+843,2025-02-04,Daniel Lima,Espelho Redondo,Decoração,Sudeste,2,260.00,15,442.00,PIX
+844,2026-02-03,Larissa Ribeiro,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,5,437.00,Cartão de Débito
+845,2026-07-17,Isabela Martins,Cadeira Estofada,Móveis,Norte,1,420.00,15,357.00,Cartão de Débito
+846,2026-01-05,Renata Araújo,Espelho Redondo,Decoração,Norte,3,260.00,0,780.00,Cartão de Crédito
+847,2026-03-21,Felipe Santos,Mesa de Jantar,Móveis,Norte,2,1800.00,15,3060.00,Cartão de Crédito
+848,2026-02-10,Natália Gomes,Luminária de Mesa,Iluminação,Nordeste,5,185.00,0,925.00,PIX
+849,2026-05-02,Marcos Pereira,Sofá 3 Lugares,Móveis,Sul,5,2450.00,15,10412.50,Cartão de Crédito
+850,2025-06-11,Henrique Melo,Pendente LED,Iluminação,Norte,1,390.00,0,390.00,Boleto
+851,2025-12-31,Larissa Ribeiro,Pendente LED,Iluminação,Nordeste,1,390.00,0,390.00,Boleto
+852,2025-08-27,Felipe Santos,Mesa de Jantar,Móveis,Sul,2,1800.00,5,3420.00,Cartão de Débito
+853,2026-01-22,Felipe Santos,Espelho Redondo,Decoração,Nordeste,2,260.00,0,520.00,Cartão de Débito
+854,2026-03-25,Isabela Martins,Sofá 3 Lugares,Móveis,Centro-Oeste,4,2450.00,15,8330.00,Boleto
+855,2025-07-11,Isabela Martins,Espelho Redondo,Decoração,Centro-Oeste,2,260.00,10,468.00,Cartão de Débito
+856,2026-07-22,Carla Souza,Espelho Redondo,Decoração,Norte,3,260.00,10,702.00,Boleto
+857,2025-09-27,Isabela Martins,Cadeira Estofada,Móveis,Centro-Oeste,4,420.00,0,1680.00,Dinheiro
+858,2025-07-09,Renata Araújo,Sofá 3 Lugares,Móveis,Norte,5,2450.00,5,11637.50,Boleto
+859,2025-11-25,Marcos Pereira,Pendente LED,Iluminação,Norte,5,390.00,0,1950.00,Boleto
+860,2026-05-25,Natália Gomes,Tapete Decorativo,Decoração,Sul,2,320.00,10,576.00,Cartão de Crédito
+861,2026-02-24,Larissa Ribeiro,Jogo de Almofadas,Têxteis,Centro-Oeste,3,120.00,0,360.00,PIX
+862,2025-03-10,Ana Silva,Mesa de Jantar,Móveis,Nordeste,5,1800.00,15,7650.00,Cartão de Crédito
+863,2026-05-13,Daniel Lima,Sofá 3 Lugares,Móveis,Norte,2,2450.00,0,4900.00,PIX
+864,2026-05-17,Isabela Martins,Jogo de Almofadas,Têxteis,Sul,4,120.00,15,408.00,Boleto
+865,2025-08-15,João Oliveira,Luminária de Mesa,Iluminação,Norte,1,185.00,0,185.00,PIX
+866,2026-04-25,Natália Gomes,Guarda-Roupa,Móveis,Norte,4,2100.00,0,8400.00,Cartão de Débito
+867,2025-03-01,Paulo Ferreira,Cortina Blackout,Têxteis,Sul,4,230.00,0,920.00,Cartão de Débito
+868,2025-03-14,Paulo Ferreira,Cortina Blackout,Têxteis,Centro-Oeste,1,230.00,15,195.50,PIX
+869,2025-04-14,Marcos Pereira,Guarda-Roupa,Móveis,Nordeste,5,2100.00,0,10500.00,Boleto
+870,2026-06-23,Larissa Ribeiro,Tapete Decorativo,Decoração,Nordeste,2,320.00,0,640.00,Boleto
+871,2026-07-26,Gabriela Alves,Cadeira Estofada,Móveis,Norte,5,420.00,15,1785.00,Boleto
+872,2026-03-14,Renata Araújo,Pendente LED,Iluminação,Norte,4,390.00,15,1326.00,Cartão de Crédito
+873,2026-06-01,Felipe Santos,Cadeira Estofada,Móveis,Nordeste,5,420.00,5,1995.00,Boleto
+874,2025-11-19,Isabela Martins,Jogo de Almofadas,Têxteis,Centro-Oeste,4,120.00,0,480.00,Cartão de Débito
+875,2025-11-28,João Oliveira,Tapete Decorativo,Decoração,Nordeste,4,320.00,15,1088.00,Boleto
+876,2026-07-18,Renata Araújo,Cortina Blackout,Têxteis,Centro-Oeste,2,230.00,5,437.00,Cartão de Débito
+877,2025-01-01,Marcos Pereira,Espelho Redondo,Decoração,Norte,4,260.00,5,988.00,Cartão de Débito
+878,2025-05-19,Renata Araújo,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,10,108.00,PIX
+879,2025-11-19,Ana Silva,Luminária de Mesa,Iluminação,Centro-Oeste,2,185.00,0,370.00,Boleto
+880,2026-08-09,Carla Souza,Cortina Blackout,Têxteis,Norte,5,230.00,10,1035.00,PIX
+881,2025-05-22,Eduarda Rocha,Espelho Redondo,Decoração,Centro-Oeste,3,260.00,0,780.00,Boleto
+882,2025-11-04,Bruno Costa,Guarda-Roupa,Móveis,Sul,2,2100.00,0,4200.00,Dinheiro
+883,2025-03-21,Marcos Pereira,Jogo de Almofadas,Têxteis,Centro-Oeste,2,120.00,15,204.00,Dinheiro
+884,2026-08-14,Paulo Ferreira,Cadeira Estofada,Móveis,Norte,4,420.00,15,1428.00,Boleto
+885,2026-08-14,Gabriela Alves,Luminária de Mesa,Iluminação,Norte,1,185.00,15,157.25,PIX
+886,2026-03-03,Renata Araújo,Pendente LED,Iluminação,Norte,3,390.00,5,1111.50,Cartão de Crédito
+887,2026-01-27,Ana Silva,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,15,102.00,Boleto
+888,2026-08-02,Carla Souza,Sofá 3 Lugares,Móveis,Centro-Oeste,3,2450.00,10,6615.00,Boleto
+889,2026-02-07,Henrique Melo,Guarda-Roupa,Móveis,Sul,2,2100.00,0,4200.00,Boleto
+890,2026-03-19,Eduarda Rocha,Cortina Blackout,Têxteis,Sudeste,1,230.00,0,230.00,Cartão de Crédito
+891,2026-05-03,João Oliveira,Cadeira Estofada,Móveis,Norte,3,420.00,0,1260.00,Boleto
+892,2026-02-13,Isabela Martins,Tapete Decorativo,Decoração,Sudeste,3,320.00,0,960.00,Cartão de Crédito
+893,2025-07-22,Henrique Melo,Cadeira Estofada,Móveis,Sudeste,4,420.00,10,1512.00,Boleto
+894,2026-06-21,Daniel Lima,Guarda-Roupa,Móveis,Nordeste,5,2100.00,10,9450.00,PIX
+895,2026-08-13,Bruno Costa,Luminária de Mesa,Iluminação,Norte,4,185.00,0,740.00,Dinheiro
+896,2025-07-15,Felipe Santos,Tapete Decorativo,Decoração,Centro-Oeste,3,320.00,0,960.00,Boleto
+897,2025-12-25,João Oliveira,Sofá 3 Lugares,Móveis,Sudeste,3,2450.00,0,7350.00,Boleto
+898,2025-08-28,Daniel Lima,Cadeira Estofada,Móveis,Centro-Oeste,4,420.00,0,1680.00,Cartão de Crédito
+899,2025-02-25,Daniel Lima,Mesa de Jantar,Móveis,Sul,1,1800.00,15,1530.00,Cartão de Crédito
+900,2025-04-24,Eduarda Rocha,Luminária de Mesa,Iluminação,Sudeste,1,185.00,0,185.00,Dinheiro
+901,2026-07-05,Daniel Lima,Sofá 3 Lugares,Móveis,Nordeste,3,2450.00,0,7350.00,Boleto
+902,2026-05-10,João Oliveira,Cortina Blackout,Têxteis,Nordeste,3,230.00,10,621.00,PIX
+903,2026-06-24,Ana Silva,Tapete Decorativo,Decoração,Centro-Oeste,5,320.00,15,1360.00,Cartão de Crédito
+904,2026-09-25,Eduarda Rocha,Sofá 3 Lugares,Móveis,Norte,3,2450.00,0,7350.00,Dinheiro
+905,2025-10-05,Larissa Ribeiro,Sofá 3 Lugares,Móveis,Centro-Oeste,1,2450.00,5,2327.50,PIX
+906,2026-01-31,Daniel Lima,Sofá 3 Lugares,Móveis,Sudeste,3,2450.00,15,6247.50,Boleto
+907,2026-09-04,Isabela Martins,Mesa de Jantar,Móveis,Norte,3,1800.00,5,5130.00,Cartão de Crédito
+908,2026-07-29,Renata Araújo,Guarda-Roupa,Móveis,Norte,5,2100.00,5,9975.00,PIX
+909,2025-12-08,Henrique Melo,Guarda-Roupa,Móveis,Sudeste,5,2100.00,0,10500.00,Cartão de Crédito
+910,2025-12-27,Felipe Santos,Sofá 3 Lugares,Móveis,Centro-Oeste,3,2450.00,15,6247.50,Cartão de Crédito
+911,2025-09-21,Renata Araújo,Cortina Blackout,Têxteis,Sudeste,3,230.00,0,690.00,PIX
+912,2025-06-05,Felipe Santos,Cortina Blackout,Têxteis,Sudeste,3,230.00,0,690.00,Cartão de Crédito
+913,2026-09-20,Paulo Ferreira,Mesa de Jantar,Móveis,Nordeste,4,1800.00,10,6480.00,Dinheiro
+914,2026-03-13,Eduarda Rocha,Guarda-Roupa,Móveis,Sul,5,2100.00,0,10500.00,Cartão de Débito
+915,2025-07-31,Larissa Ribeiro,Espelho Redondo,Decoração,Nordeste,5,260.00,0,1300.00,Boleto
+916,2025-11-13,Marcos Pereira,Cortina Blackout,Têxteis,Sul,2,230.00,0,460.00,Cartão de Crédito
+917,2026-08-02,Renata Araújo,Tapete Decorativo,Decoração,Nordeste,2,320.00,15,544.00,Cartão de Débito
+918,2025-05-02,Carla Souza,Mesa de Jantar,Móveis,Centro-Oeste,5,1800.00,10,8100.00,Cartão de Crédito
+919,2026-02-26,Eduarda Rocha,Sofá 3 Lugares,Móveis,Sudeste,3,2450.00,5,6982.50,Cartão de Débito
+920,2025-05-15,Carla Souza,Cadeira Estofada,Móveis,Norte,2,420.00,0,840.00,Boleto
+921,2026-08-04,João Oliveira,Jogo de Almofadas,Têxteis,Nordeste,3,120.00,10,324.00,Boleto
+922,2025-01-27,Felipe Santos,Guarda-Roupa,Móveis,Norte,2,2100.00,15,3570.00,Dinheiro
+923,2026-04-26,Marcos Pereira,Cadeira Estofada,Móveis,Centro-Oeste,5,420.00,10,1890.00,Cartão de Crédito
+924,2025-05-21,Carla Souza,Tapete Decorativo,Decoração,Nordeste,4,320.00,5,1216.00,Cartão de Crédito
+925,2025-10-04,Gabriela Alves,Sofá 3 Lugares,Móveis,Nordeste,4,2450.00,0,9800.00,Cartão de Crédito
+926,2026-03-26,Paulo Ferreira,Guarda-Roupa,Móveis,Sul,1,2100.00,0,2100.00,Dinheiro
+927,2026-03-14,Gabriela Alves,Pendente LED,Iluminação,Norte,4,390.00,0,1560.00,Boleto
+928,2026-09-19,Marcos Pereira,Tapete Decorativo,Decoração,Sul,3,320.00,5,912.00,Boleto
+929,2025-02-09,Isabela Martins,Cortina Blackout,Têxteis,Norte,5,230.00,15,977.50,Dinheiro
+930,2026-06-16,Isabela Martins,Espelho Redondo,Decoração,Sudeste,1,260.00,0,260.00,PIX
+931,2025-02-20,Daniel Lima,Cortina Blackout,Têxteis,Centro-Oeste,4,230.00,10,828.00,Dinheiro
+932,2026-04-18,Carla Souza,Tapete Decorativo,Decoração,Sudeste,3,320.00,0,960.00,Cartão de Débito
+933,2026-06-14,Renata Araújo,Jogo de Almofadas,Têxteis,Nordeste,1,120.00,15,102.00,Dinheiro
+934,2026-05-28,Bruno Costa,Espelho Redondo,Decoração,Nordeste,1,260.00,15,221.00,Boleto
+935,2026-02-28,Felipe Santos,Cortina Blackout,Têxteis,Sudeste,2,230.00,5,437.00,PIX
+936,2025-07-26,Renata Araújo,Cadeira Estofada,Móveis,Sudeste,4,420.00,10,1512.00,PIX
+937,2025-06-17,Marcos Pereira,Luminária de Mesa,Iluminação,Norte,3,185.00,15,471.75,PIX
+938,2026-01-07,Bruno Costa,Mesa de Jantar,Móveis,Sul,4,1800.00,15,6120.00,Dinheiro
+939,2026-01-23,Isabela Martins,Cortina Blackout,Têxteis,Sudeste,5,230.00,0,1150.00,PIX
+940,2025-06-03,Carla Souza,Cadeira Estofada,Móveis,Nordeste,3,420.00,10,1134.00,Cartão de Crédito
+941,2025-11-13,Marcos Pereira,Sofá 3 Lugares,Móveis,Sudeste,4,2450.00,0,9800.00,Cartão de Débito
+942,2025-07-27,Ana Silva,Cadeira Estofada,Móveis,Sul,1,420.00,0,420.00,Cartão de Débito
+943,2026-05-26,Isabela Martins,Sofá 3 Lugares,Móveis,Norte,4,2450.00,5,9310.00,Boleto
+944,2026-08-26,Larissa Ribeiro,Espelho Redondo,Decoração,Sudeste,2,260.00,0,520.00,Dinheiro
+945,2026-09-08,João Oliveira,Tapete Decorativo,Decoração,Norte,4,320.00,0,1280.00,Cartão de Crédito
+946,2026-07-25,Paulo Ferreira,Cortina Blackout,Têxteis,Nordeste,3,230.00,10,621.00,PIX
+947,2025-12-24,Ana Silva,Cadeira Estofada,Móveis,Nordeste,2,420.00,0,840.00,PIX
+948,2025-12-06,Renata Araújo,Jogo de Almofadas,Têxteis,Norte,5,120.00,0,600.00,PIX
+949,2025-06-15,Larissa Ribeiro,Mesa de Jantar,Móveis,Centro-Oeste,4,1800.00,0,7200.00,Boleto
+950,2025-07-01,Henrique Melo,Jogo de Almofadas,Têxteis,Sul,5,120.00,10,540.00,Cartão de Débito
+951,2025-11-27,Felipe Santos,Sofá 3 Lugares,Móveis,Sudeste,1,2450.00,0,2450.00,PIX
+952,2025-10-27,Henrique Melo,Tapete Decorativo,Decoração,Nordeste,5,320.00,0,1600.00,PIX
+953,2026-02-28,Isabela Martins,Luminária de Mesa,Iluminação,Nordeste,3,185.00,10,499.50,Cartão de Crédito
+954,2026-08-09,Marcos Pereira,Jogo de Almofadas,Têxteis,Sul,1,120.00,0,120.00,PIX
+955,2025-10-22,Gabriela Alves,Espelho Redondo,Decoração,Sul,5,260.00,15,1105.00,Cartão de Débito
+956,2025-12-29,Renata Araújo,Luminária de Mesa,Iluminação,Nordeste,5,185.00,10,832.50,Boleto
+957,2026-05-25,Henrique Melo,Jogo de Almofadas,Têxteis,Nordeste,4,120.00,10,432.00,Boleto
+958,2025-01-02,Bruno Costa,Guarda-Roupa,Móveis,Norte,3,2100.00,0,6300.00,Dinheiro
+959,2026-03-01,Gabriela Alves,Mesa de Jantar,Móveis,Norte,2,1800.00,10,3240.00,Cartão de Débito
+960,2025-08-06,Ana Silva,Pendente LED,Iluminação,Nordeste,5,390.00,15,1657.50,Cartão de Débito
+961,2025-11-04,Isabela Martins,Luminária de Mesa,Iluminação,Sul,1,185.00,0,185.00,Cartão de Débito
+962,2025-12-08,Felipe Santos,Sofá 3 Lugares,Móveis,Sudeste,1,2450.00,15,2082.50,Boleto
+963,2025-07-18,Felipe Santos,Jogo de Almofadas,Têxteis,Centro-Oeste,1,120.00,0,120.00,Dinheiro
+964,2025-05-20,Henrique Melo,Espelho Redondo,Decoração,Nordeste,1,260.00,15,221.00,Dinheiro
+965,2026-02-28,Renata Araújo,Cortina Blackout,Têxteis,Norte,3,230.00,5,655.50,Boleto
+966,2025-11-20,Isabela Martins,Luminária de Mesa,Iluminação,Sul,5,185.00,15,786.25,PIX
+967,2025-12-06,Natália Gomes,Guarda-Roupa,Móveis,Centro-Oeste,5,2100.00,15,8925.00,PIX
+968,2025-12-14,Gabriela Alves,Cadeira Estofada,Móveis,Sul,3,420.00,0,1260.00,Cartão de Crédito
+969,2025-07-11,João Oliveira,Jogo de Almofadas,Têxteis,Norte,5,120.00,5,570.00,Cartão de Débito
+970,2026-02-28,Bruno Costa,Pendente LED,Iluminação,Sudeste,1,390.00,0,390.00,Cartão de Crédito
+971,2025-08-10,Isabela Martins,Pendente LED,Iluminação,Centro-Oeste,4,390.00,0,1560.00,Cartão de Crédito
+972,2025-07-26,Renata Araújo,Mesa de Jantar,Móveis,Norte,3,1800.00,0,5400.00,Dinheiro
+973,2026-05-28,Carla Souza,Cortina Blackout,Têxteis,Nordeste,1,230.00,5,218.50,Cartão de Débito
+974,2025-12-02,Carla Souza,Espelho Redondo,Decoração,Norte,5,260.00,0,1300.00,Boleto
+975,2025-02-07,Henrique Melo,Cadeira Estofada,Móveis,Sudeste,2,420.00,15,714.00,Boleto
+976,2025-02-15,Larissa Ribeiro,Mesa de Jantar,Móveis,Sul,1,1800.00,0,1800.00,PIX
+977,2025-04-16,Isabela Martins,Pendente LED,Iluminação,Centro-Oeste,4,390.00,0,1560.00,PIX
+978,2025-08-03,Felipe Santos,Jogo de Almofadas,Têxteis,Nordeste,3,120.00,15,306.00,Cartão de Crédito
+979,2025-11-23,Natália Gomes,Luminária de Mesa,Iluminação,Sudeste,3,185.00,10,499.50,PIX
+980,2025-10-08,Bruno Costa,Luminária de Mesa,Iluminação,Norte,2,185.00,0,370.00,Boleto
+981,2025-07-31,Isabela Martins,Cortina Blackout,Têxteis,Centro-Oeste,5,230.00,0,1150.00,Boleto
+982,2025-10-18,João Oliveira,Pendente LED,Iluminação,Nordeste,3,390.00,0,1170.00,Cartão de Crédito
+983,2025-12-13,Isabela Martins,Mesa de Jantar,Móveis,Sudeste,3,1800.00,10,4860.00,PIX
+984,2025-02-21,Bruno Costa,Cadeira Estofada,Móveis,Sudeste,1,420.00,5,399.00,PIX
+985,2025-07-03,Marcos Pereira,Mesa de Jantar,Móveis,Sul,4,1800.00,5,6840.00,Boleto
+986,2025-11-16,Felipe Santos,Espelho Redondo,Decoração,Nordeste,5,260.00,0,1300.00,Boleto
+987,2025-05-15,Bruno Costa,Mesa de Jantar,Móveis,Sudeste,4,1800.00,10,6480.00,PIX
+988,2026-04-22,Henrique Melo,Espelho Redondo,Decoração,Nordeste,3,260.00,15,663.00,Cartão de Crédito
+989,2026-01-08,Gabriela Alves,Cadeira Estofada,Móveis,Nordeste,5,420.00,0,2100.00,Cartão de Débito
+990,2025-01-31,Bruno Costa,Pendente LED,Iluminação,Sudeste,4,390.00,5,1482.00,PIX
+991,2025-06-24,Eduarda Rocha,Pendente LED,Iluminação,Centro-Oeste,4,390.00,5,1482.00,Boleto
+992,2025-04-16,Gabriela Alves,Jogo de Almofadas,Têxteis,Norte,2,120.00,10,216.00,Cartão de Débito
+993,2026-06-30,Henrique Melo,Cortina Blackout,Têxteis,Sudeste,1,230.00,0,230.00,Boleto
+994,2025-09-07,Isabela Martins,Tapete Decorativo,Decoração,Nordeste,2,320.00,10,576.00,Dinheiro
+995,2025-08-02,Paulo Ferreira,Tapete Decorativo,Decoração,Sul,1,320.00,0,320.00,Dinheiro
+996,2026-07-12,Marcos Pereira,Tapete Decorativo,Decoração,Nordeste,5,320.00,0,1600.00,Cartão de Crédito
+997,2025-04-28,João Oliveira,Mesa de Jantar,Móveis,Sul,5,1800.00,5,8550.00,Dinheiro
+998,2026-04-01,Carla Souza,Pendente LED,Iluminação,Centro-Oeste,5,390.00,0,1950.00,Dinheiro
+999,2026-09-03,Natália Gomes,Mesa de Jantar,Móveis,Sudeste,5,1800.00,0,9000.00,Cartão de Débito
+1000,2025-08-11,Paulo Ferreira,Espelho Redondo,Decoração,Nordeste,1,260.00,0,260.00,Boleto

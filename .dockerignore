@@ -1,0 +1,14 @@
+.git
+.venv
+venv
+.env
+.env.*
+!.env.example
+.codex
+.aws
+__pycache__
+**/__pycache__
+artifacts
+llm-council/runs
+superset_exports
+*.zip

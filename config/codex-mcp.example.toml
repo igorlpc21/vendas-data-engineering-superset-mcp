@@ -1,0 +1,7 @@
+# Mescle no config.toml do Codex; não sobrescreva outros servidores.
+[mcp_servers.superset]
+url = "http://127.0.0.1:15008/mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+# Para a instalação anterior, utilize http://127.0.0.1:5008/mcp.
+# Em ambiente JWT: bearer_token_env_var = "SUPERSET_MCP_TOKEN"
