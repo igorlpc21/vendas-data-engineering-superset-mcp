@@ -82,7 +82,7 @@ Esses casos reforçaram uma prática que pretendo manter em projetos com agentes
 
 O projeto passou a incluir configuração por variáveis de ambiente, requisitos do ambiente Python, SQL separado, validação do CSV, testes de contrato, workflow de CI e um laboratório Docker isolado para PostgreSQL, Superset e MCP.
 
-A execução completa desse laboratório e dos jobs no ambiente de destino ainda precisa ser confirmada. Também permanecem ajustes visuais pela interface do Superset e a inclusão de uma captura real do dashboard. Prefiro registrar essas pendências a apresentar automação total sem evidência.
+A CI no GitHub passou nas validações locais e na carga inicial e reexecução do pipeline em PostgreSQL descartável. O build e o boot do laboratório completo Superset/MCP ainda precisam ser confirmados. Também permanecem ajustes visuais pela interface do Superset e a inclusão de uma captura real do dashboard. Prefiro registrar essas pendências a apresentar automação total sem evidência.
 
 A revisão por LLM Council foi preparada, mas não executou porque os agentes locais ainda precisam ser configurados. Portanto, a análise publicada aqui não é apresentada como consenso de múltiplos modelos.
 

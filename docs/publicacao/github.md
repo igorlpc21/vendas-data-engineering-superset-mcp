@@ -62,4 +62,4 @@ git push -u origin main
 
 ## 5. Publicar o artigo
 
-Revise [o artigo](artigo-linkedin.md), acrescente a URL real ao final e anexe a captura validada. Publique primeiro o repositório; depois o artigo e o [post](post-linkedin.md). Nenhuma publicação externa foi realizada por esta preparação.
+O repositório foi publicado em [igorlpc21/vendas-data-engineering-superset-mcp](https://github.com/igorlpc21/vendas-data-engineering-superset-mcp). Revise [o artigo](artigo-linkedin.md) e anexe a captura validada antes de publicar o artigo e o [post](post-linkedin.md). Nada foi publicado no LinkedIn.

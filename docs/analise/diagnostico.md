@@ -26,12 +26,12 @@ O projeto possui uma narrativa técnica consistente: começa com dados rastreáv
 
 O CSV fornecido possui 1.000 IDs únicos, 3.074 itens, receita de 2.318.923,25 e 21 meses entre 01/01/2025 e 30/09/2026. O ticket sem arredondamento é 2.318,92325. A fonte tem dez produtos, quatro categorias, cinco regiões e cinco formas de pagamento.
 
-A validação do CSV confirma a fórmula de desconto por linha. A conferência de joins e a reconciliação entre camadas estão no pipeline e no job de integração, mas a execução completa do banco precisa ser distinguida dos testes offline.
+A validação do CSV confirma a fórmula de desconto por linha. A conferência de joins e a reconciliação entre camadas passaram no job de integração do GitHub Actions, incluindo uma segunda carga sobre o mesmo PostgreSQL descartável. Isso não valida o build ou a renderização do Superset.
 
 ## O que ainda exige evidência
 
 1. Build e primeiro boot do Compose completo em Docker com acesso ao daemon.
-2. Execução do pipeline duas vezes contra um PostgreSQL isolado.
+2. Build e conexão da aplicação Superset ao ambiente completo; a carga do DW duas vezes já passou na CI isolada.
 3. Instalação nova do Superset com conexão, dataset e métrica cadastrados.
 4. Agrupamento mensal do gráfico com 21 pontos efetivos e ordenação temporal.
 5. Ranking dos produtos e ordenação dos gráficos de barras.
@@ -58,4 +58,4 @@ A validação do CSV confirma a fórmula de desconto por linha. A conferência d
 
 ## Validação desta entrega
 
-Consulte [validacao.md](validacao.md) para os checks efetivamente executados. A existência de um workflow no repositório não significa que ele já passou no GitHub.
+Consulte [validacao.md](validacao.md) para os checks efetivamente executados e a execução aprovada do GitHub Actions.

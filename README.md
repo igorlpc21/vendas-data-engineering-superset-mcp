@@ -8,7 +8,7 @@ Pipeline educacional de ponta a ponta: dados sintéticos de vendas, camadas Bron
 
 Este projeto foi organizado como portfólio de engenharia de dados. Os notebooks explicam as etapas; scripts e SQL permitem reproduzir a carga sem executar células manualmente.
 
-**Status:** código e documentação preparados; validações offline disponíveis. O laboratório Docker completo e o workflow de integração precisam ser executados no ambiente de destino. O dashboard da sessão existe, mas não está incluído como export nativo importável. Veja as [limitações e evidências](docs/analise/diagnostico.md).
+**Status:** publicado no GitHub, com [CI aprovada](https://github.com/igorlpc21/vendas-data-engineering-superset-mcp/actions/runs/40411258044), incluindo carga inicial e reexecução em PostgreSQL descartável. O build e o boot do laboratório completo Superset/MCP ainda precisam ser verificados. O dashboard da sessão existe, mas não está incluído como export nativo importável. Veja as [limitações e evidências](docs/analise/diagnostico.md).
 
 ## O que este projeto demonstra
 
