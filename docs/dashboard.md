@@ -1,34 +1,35 @@
 # Dashboard Executivo de Vendas
 
-## Inventário da sessão original
+## Métricas e gráficos
 
-Dashboard **10**, dataset **22**, banco **DW Vendas**, schema **gold**. IDs válidos apenas na instalação usada na conversa; redescubra em uma nova instalação. O inventário não é um export nativo importável.
+| Gráfico | Tipo | Métrica | Dimensão |
+|---|---|---|---|
+| KPI - Faturamento Total | Big Number | `SUM(valor_total)` | — |
+| KPI - Total de Vendas | Big Number | `COUNT(DISTINCT id_venda)` | — |
+| KPI - Ticket Médio | Big Number | métrica salva `ticket_medio` | — |
+| KPI - Itens Vendidos | Big Number | `SUM(quantidade)` | — |
+| Evolução Mensal do Faturamento | Linha temporal | `SUM(valor_total)` | `data`, mês |
+| Faturamento por Categoria | Barras | `SUM(valor_total)` | `categoria` |
+| Faturamento por Região | Barras | `SUM(valor_total)` | `regiao` |
+| Top 10 Produtos por Faturamento | Barras | `SUM(valor_total)` | `produto` |
+| Vendas por Forma de Pagamento | Donut | `COUNT(DISTINCT id_venda)` | `forma_pagamento` |
 
-| Gráfico | ID | Medida / dimensão |
-|---|---:|---|
-| KPI - Faturamento Total | 104 | `SUM(valor_total)` |
-| KPI - Total de Vendas | 105 | `COUNT(DISTINCT id_venda)` |
-| KPI - Ticket Médio | 106 | métrica salva `ticket_medio` |
-| KPI - Itens Vendidos | 107 | `SUM(quantidade)` |
-| Evolução Mensal do Faturamento | 108 | data mensal; `SUM(valor_total)` |
-| Faturamento por Categoria | 110 | categoria; `SUM(valor_total)` |
-| Faturamento por Região | 111 | regiao; `SUM(valor_total)` |
-| Top 10 Produtos por Faturamento | 112 | produto; `SUM(valor_total)` |
-| Vendas por Forma de Pagamento | 113 | forma_pagamento; `COUNT(DISTINCT id_venda)` |
+A métrica salva `ticket_medio` utiliza `SUM(valor_total) / COUNT(DISTINCT id_venda)`. Configure-a na aba Metrics do dataset antes de criar o KPI correspondente.
 
-`ticket_medio = SUM(valor_total) / COUNT(DISTINCT id_venda)`. Não substituir por `AVG(valor_total)`: a fórmula especifica explicitamente o denominador de vendas distintas.
+## Criar os gráficos via MCP
 
-## Fluxo de criação em uma instalação nova
+1. Liste os datasets e confirme o dataset analítico no banco DW Vendas, schema gold.
+2. Use `get_dataset_info` para confirmar colunas e métricas.
+3. Consulte `get_chart_type_schema` para o tipo desejado.
+4. Crie cada gráfico com `generate_chart`, usando `save_chart: true` e o ID real do dataset.
+5. Verifique o resultado com `get_chart_info` e `get_chart_data`.
+6. Localize os nove gráficos com `list_charts` e crie o dashboard com `generate_dashboard`.
 
-1. Liste datasets e percorra páginas. Confirme o analítico, colunas e métricas.
-2. Consulte o schema do tipo. Na versão observada: `big_number`, `xy` para barras/linhas e `pie` para pizza/Donut.
-3. Use `generate_chart` com `save_chart: true`, um gráfico por vez.
-4. Registre o ID retornado e use `get_chart_info` e `get_chart_data`.
-5. Não recrie gráficos já existentes. Localize-os com `list_charts`.
-6. Use `generate_dashboard` com os nove IDs confirmados e título **Dashboard Executivo de Vendas**.
-7. Confira o dashboard com `get_dashboard_info`.
+Não reutilize IDs de outra instalação nem duplique objetos existentes.
 
-Exemplo conceitual de configuração para KPI (use o schema retornado na sua versão):
+Na interface MCP utilizada, os tipos de configuração são `big_number`, `xy` para linhas/barras e `pie` para pizza/Donut. Confirme os parâmetros na versão instalada.
+
+Exemplo de configuração de faturamento:
 
 ```json
 {
@@ -39,45 +40,37 @@ Exemplo conceitual de configuração para KPI (use o schema retornado na sua ver
 }
 ```
 
-Para o Ticket Médio, utilize `{"name": "ticket_medio", "saved_metric": true}`. Para vendas distintas use `aggregate: "COUNT_DISTINCT"`; para itens use `aggregate: "SUM"` sobre `quantidade`.
+Para Ticket Médio, use `{"name": "ticket_medio", "saved_metric": true}`. Para vendas, use `COUNT_DISTINCT` sobre `id_venda`. Para itens, use `SUM` sobre `quantidade`.
 
-## Layout editorial desejado
+## Layout sugerido
 
-| Linha | Conteúdo | Distribuição sugerida |
+| Linha | Conteúdo | Distribuição |
 |---|---|---|
-| 1 | Os quatro KPIs, na ordem do inventário | Quatro cards de mesma largura |
+| 1 | Faturamento, vendas, ticket médio e itens | Quatro cards iguais |
 | 2 | Evolução mensal | Largura total |
 | 3 | Categoria e Região | Duas colunas |
-| 4 | Top 10 e Formas de pagamento | Duas colunas |
+| 4 | Top 10 e Pagamento | Duas colunas |
 
-O layout e a compactação dos KPIs não foram confirmados pelo MCP na sessão. Pela interface, escolha os menores tamanhos de número e subtítulo disponíveis na versão instalada; confira a ausência de rolagem no tamanho real dos cards. Não registre enums de fonte como se fossem aceitos pelo MCP quando não aparecem no schema.
+Ajuste o layout e as fontes pela interface quando esses controles não estiverem disponíveis no schema MCP. Confira a legibilidade e a ausência de rolagem dentro dos cards.
 
-## Critérios de aceite
+## Validação
 
-| Visual | Verificação necessária |
-|---|---|
-| Faturamento | R$ 2.318.923,25; formato compacto opcional com unidade explícita |
-| Total de vendas | 1.000 vendas distintas |
-| Ticket médio | R$ 2.318,92, com fórmula salva correta |
-| Itens | 3.074, soma de quantidade |
-| Evolução mensal | 21 pontos de jan/2025 a set/2026, ordenados por data crescente |
-| Categoria | 4 categorias, soma conciliada com o KPI, ordem decrescente se configurável |
-| Região | 5 regiões, soma conciliada, horizontal se suportado |
-| Top 10 | ORDER BY soma de faturamento DESC antes do LIMIT; empate com critério estável |
-| Pagamento | 5 formas; 1.000 vendas no total; participação soma 100% |
+- Faturamento: R$ 2.318.923,25.
+- Vendas distintas: 1.000.
+- Ticket médio: R$ 2.318,92.
+- Itens vendidos: 3.074.
+- Série mensal: 21 pontos, de janeiro/2025 a setembro/2026, em ordem crescente.
+- Categoria: 4 categorias, com receita conciliada ao KPI.
+- Região: 5 regiões, com receita conciliada ao KPI.
+- Produtos: ordenar pela soma do faturamento antes de limitar a dez.
+- Pagamento: 5 formas e 1.000 vendas, com participações somando 100%.
 
-Como existem dez produtos no CSV de referência, o gráfico com limite dez pode conter todos. Isso não prova que a configuração realiza um Top N correto para uma fonte com mais produtos. A validação de ranking deve verificar a ordenação antes do corte.
+Use as consultas em [04_validacao.sql](../sql/04_validacao.sql) como referência independente para os resultados.
 
-## Limitações observadas
+## Limitações da interface MCP
 
-O schema MCP consultado não expôs parâmetros de fonte, tamanho de subtitle, ocultação de Metric Name ou moeda BRL específica para Big Number. Expôs `subheader` e `y_axis_format`. Para barras, aceitou `orientation` e `row_limit`, mas não expôs ordenação da métrica ou rótulos nas barras.
+A presença de `P1M` na configuração não comprova a agregação mensal: confira os pontos retornados. Um limite de dez linhas não comprova um Top 10 sem ordenação pela métrica.
 
-A configuração mensal `P1M` foi salva no gráfico 108, porém a consulta MCP retornou 502 datas individuais na verificação realizada. Uma edição posterior foi observada no inventário, sem revalidação correspondente. Não declare o gráfico mensal aprovado com base apenas no parâmetro salvo.
+O schema consultado não expõe tamanho de fonte de Big Number, tamanho de subtítulo ou configuração específica de BRL. Para barras, orientação e limite estão disponíveis, mas ordenação e rótulos podem depender da interface visual e da versão instalada.
 
-O Donut 113 aceitou legenda e `label_type: key_value_percent`. Boleto retornou 212 de 1.000 vendas, equivalentes a 21,2%.
-
-## Evidência para o portfólio
-
-Capture o dashboard inteiro e detalhes dos KPIs após os ajustes manuais. Remova nomes de usuários, informações de conexão e segredos. Exporte o dashboard pelo Superset somente após revisão: o arquivo pode conter metadados de conexões. Não publique a URL `localhost` como demonstração pública.
-
-Inclua no README a imagem real e um link de repositório somente depois de existir. Nenhuma captura ou export foi fabricado nesta preparação.
+Não há screenshots ou export nativo importável do dashboard neste repositório. A configuração dos objetos no Superset faz parte da instalação.

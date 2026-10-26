@@ -1,121 +1,89 @@
-# Engenharia de dados de vendas com PostgreSQL, Superset e Codex MCP
+# Engenharia de dados de vendas com PostgreSQL e Apache Superset
 
-[Repositório no GitHub](https://github.com/igorlpc21/vendas-data-engineering-superset-mcp)
-
-[Repositório no GitHub](https://github.com/igorlpc21/vendas-data-engineering-superset-mcp)
-
-Pipeline educacional de ponta a ponta: dados sintéticos de vendas, camadas Bronze/Silver/Gold, modelo dimensional e um dashboard executivo no Apache Superset. O Codex utiliza o MCP nativo do Superset para descobrir recursos e criar visualizações com configurações verificadas.
-
-Este projeto foi organizado como portfólio de engenharia de dados. Os notebooks explicam as etapas; scripts e SQL permitem reproduzir a carga sem executar células manualmente.
-
-**Status:** publicado no GitHub, com [CI aprovada](https://github.com/igorlpc21/vendas-data-engineering-superset-mcp/actions/runs/40411258044), incluindo carga inicial e reexecução em PostgreSQL descartável. O build e o boot do laboratório completo Superset/MCP ainda precisam ser verificados. O dashboard da sessão existe, mas não está incluído como export nativo importável. Veja as [limitações e evidências](docs/analise/diagnostico.md).
-
-## O que este projeto demonstra
-
-- Ingestão e reconciliação entre fonte e Data Warehouse.
-- Transformações de qualidade, padronização e modelagem estrela.
-- Definição consistente de indicadores de negócio.
-- Uso de ferramentas MCP com descoberta de schemas e validação posterior.
-- Separação entre cálculo correto, configuração aceita e resultado visual validado.
-- Organização para revisão técnica: testes, CI, exemplos sem segredos e instruções de reprodução.
+Pipeline de vendas com dados sintéticos, camadas Bronze/Silver/Gold, modelo dimensional e dashboard no Apache Superset. Inclui integração opcional com o Codex por meio do MCP nativo do Superset.
 
 ## Arquitetura
 
-```mermaid
-flowchart LR
-    G[Gerador determinístico] --> C[CSV sintético]
-    C --> B[PostgreSQL: Bronze]
-    B --> S[PostgreSQL: Silver]
-    S --> D[Gold: dimensões]
-    S --> F[Gold: fato_vendas]
-    D --> Q[Consulta analítica]
-    F --> Q
-    Q --> U[Dataset no Superset]
-    U --> V[Gráficos e dashboard]
-    X[Codex] <-->|Streamable HTTP| M[MCP nativo do Superset]
-    M --> U
-    M --> V
+```text
+CSV → Bronze → Silver → Gold → Dataset analítico → Dashboard Superset
+                                           ↑
+                                   Codex via MCP
 ```
 
-Bronze/Silver/Gold são schemas PostgreSQL neste laboratório; não há lakehouse, Spark ou armazenamento de objetos.
+As camadas são schemas do PostgreSQL. Os notebooks apresentam a trilha didática; os scripts permitem executar e validar a carga de forma automatizada.
 
-## Resultado de referência
+## Dados de referência
 
-Base sintética, sem dados de clientes reais. Uma linha representa uma venda com um único produto e sua quantidade.
-
-| Indicador | Resultado de referência |
+| Indicador | Valor |
 |---|---:|
 | Vendas distintas | 1.000 |
-| Faturamento líquido após desconto | R$ 2.318.923,25 |
+| Faturamento após desconto | R$ 2.318.923,25 |
 | Ticket médio | R$ 2.318,92 |
 | Itens vendidos | 3.074 |
-| Período | 01/01/2025 a 30/09/2026 |
-| Meses com dados | 21 |
+| Período | Jan/2025 a Set/2026 |
 
-Não são resultados de uma operação comercial real. Os valores acima são verificáveis no CSV versionado.
+Os dados são sintéticos. Cada linha representa uma venda de um produto, com sua quantidade.
 
-## Comece aqui
+## Instalação
 
-Pré-requisitos: Git, Python 3.11 ou 3.12 recomendado para o projeto, Docker Desktop com Compose para o laboratório e Codex autenticado para a integração MCP. O Superset roda em seu próprio container Python; não o instale no ambiente dos notebooks.
+Pré-requisitos: Python 3.11 ou 3.12 e Docker com Compose. O Superset utiliza ambiente separado nos containers.
 
-No PowerShell, a partir da raiz:
+No PowerShell, a partir da raiz do projeto:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe scripts/validate_data.py
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
 Copy-Item .env.example .env
 ```
 
-Preencha os campos vazios do `.env`. Para gerar uma chave local, use `python -c "import secrets; print(secrets.token_urlsafe(48))"` e copie o resultado para `SUPERSET_SECRET_KEY` sem publicá-lo.
-
-Depois siga nesta ordem:
-
-1. [Instalação completa: PostgreSQL, pipeline, Superset e MCP](docs/instalacao.md).
-2. [Conectar o MCP ao Codex e diagnosticar autenticação](docs/mcp-codex.md).
-3. [Construir e verificar o dashboard](docs/dashboard.md).
-4. [Publicar o projeto no GitHub](docs/publicacao/github.md).
-5. [Artigo para LinkedIn](docs/publicacao/artigo-linkedin.md) e [post de divulgação](docs/publicacao/post-linkedin.md).
-
-Para o laboratório completo e isolado:
+Preencha no `.env`: `POSTGRES_PASSWORD`, `SUPERSET_SECRET_KEY` e `SUPERSET_ADMIN_PASSWORD`.
 
 ```powershell
 docker compose -p vendas-demo -f docker-compose.demo.yml up -d --build
 .\.venv\Scripts\python.exe scripts/run_pipeline.py --port 15434 --full-refresh
 ```
 
-`--full-refresh` substitui as linhas de Bronze, Silver e fato Gold no banco configurado. Use no laboratório. Esse comando não acessa a API do Superset e não cria datasets, métricas, gráficos ou dashboards.
+O Superset fica disponível em `http://localhost:18888` e o MCP em `http://127.0.0.1:15008/mcp`.
 
-## Estrutura do repositório
+`--full-refresh` substitui os dados de Bronze, Silver e fato Gold no banco configurado. Utilize somente no ambiente de laboratório.
 
-```text
-.
-├── 01_analise_exploratoria.ipynb  # Trilha didática original, preservada
-├── 02_camada_bronze.ipynb
-├── 03_camada_silver.ipynb
-├── 04_camada_gold.ipynb
-├── gerar_dados.py                # Fonte sintética, seed 42
-├── dados/vendas.csv              # Base de referência versionada
-├── scripts/                     # Carga, validação e checagens offline
-├── sql/                         # DDL, transformação, dataset e consultas
-├── config/                      # Superset, imagem e exemplo Codex MCP
-├── docs/                        # Instalação, arquitetura, análise e publicação
-├── tests/                       # Contrato e falhas de qualidade
-├── .github/workflows/validate.yml
-├── llm-council/task-spec.json    # Briefing da análise; execução pendente
-├── docker-compose.yml           # PostgreSQL da trilha original, porta 5434
-└── docker-compose.demo.yml      # Stack isolada: DW, Superset e MCP
+Consulte o [passo a passo completo de instalação](docs/instalacao.md) para configurar a conexão, o dataset analítico e a métrica de ticket médio. Os objetos do Superset são configurados separadamente; não há export importável do dashboard neste repositório.
+
+## Validação
+
+```powershell
+.\.venv\Scripts\python.exe scripts/validate_data.py
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe scripts/check_project.py
 ```
 
-Os notebooks permanecem na raiz para preservar referências e caminhos existentes. Escolha a trilha manual dos notebooks **ou** o script de carga completa; não misture execuções fora de ordem sobre o mesmo banco.
+O GitHub Actions verifica o contrato de dados, os notebooks e os arquivos Compose, além de executar a carga duas vezes em PostgreSQL 17 descartável. O build completo da aplicação Superset/MCP ainda precisa ser validado.
 
-## Documentação técnica
+## Estrutura
 
-- [Arquitetura, grão e contrato de dados](docs/arquitetura.md).
-- [Definições de métricas e critérios de aceite](docs/dashboard.md).
-- [Diagnóstico, decisões e pendências](docs/analise/diagnostico.md).
-- [Como executar o conselho solicitado](docs/analise/conselho.md).
-- [Contribuição e validação](CONTRIBUTING.md).
+```text
+01_analise_exploratoria.ipynb  Análise da fonte
+02_camada_bronze.ipynb        Ingestão
+03_camada_silver.ipynb        Transformação
+04_camada_gold.ipynb          Modelo dimensional
+gerar_dados.py               Geração da base sintética
+dados/                       CSV de referência
+scripts/                     Carga e validação
+sql/                         Estruturas, transformações e consultas
+config/                      Superset e exemplo MCP
+docs/                        Documentação técnica
+tests/                       Testes do contrato de dados
+.github/workflows/           Integração contínua
+```
 
-O pipeline é um full refresh de laboratório. Carga incremental, histórico SCD, orquestração, observabilidade e implantação de produção estão fora da implementação atual.
+`docker-compose.yml` mantém a opção de PostgreSQL isolado da trilha dos notebooks, na porta 5434. `docker-compose.demo.yml` fornece o laboratório completo em portas separadas.
+
+## Documentação
+
+- [Instalação](docs/instalacao.md)
+- [Arquitetura e contrato de dados](docs/arquitetura.md)
+- [Dashboard e métricas](docs/dashboard.md)
+- [MCP do Superset no Codex](docs/mcp-codex.md)
+- [Contribuição](CONTRIBUTING.md)
+
+A carga é full refresh de laboratório. Não implementa carga incremental, histórico SCD ou implantação de produção.

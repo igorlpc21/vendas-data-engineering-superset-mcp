@@ -1,4 +1,4 @@
-"""Checagens offline de publicação: sintaxe, notebooks limpos e links locais."""
+"""Checagens de integridade: sintaxe, notebooks limpos e links locais."""
 import ast
 import json
 import re

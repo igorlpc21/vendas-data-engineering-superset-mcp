@@ -49,7 +49,7 @@ codex mcp add superset --url http://127.0.0.1:15008/mcp
 codex mcp list
 ```
 
-Para a instalação já usada na sessão, substitua a porta por `5008`. Cadastre somente a URL correspondente ao seu ambiente; não execute ambos os comandos de adição com o mesmo nome sem verificar a configuração existente.
+Para um servidor MCP publicado diretamente na porta padrão, substitua a porta por `5008`. Cadastre somente a URL correspondente ao seu ambiente; não execute ambos os comandos de adição com o mesmo nome sem verificar a configuração existente.
 
 Como alternativa, mescle o conteúdo de [codex-mcp.example.toml](../config/codex-mcp.example.toml) no arquivo de configuração do Codex. No Windows, o caminho usual é `%USERPROFILE%\.codex\config.toml`. A configuração por projeto é `.codex/config.toml` em projeto confiável. Não substitua o arquivo inteiro se já houver modelos, preferências ou outros servidores.
 
@@ -83,7 +83,7 @@ Confirme também a métrica salva ticket_medio e sua expressão.
 Mostre o resultado sem criar objetos.
 ```
 
-Antes de cada criação, consulte `get_chart_type_schema`, use os campos aceitos e crie um único objeto por etapa. Depois consulte sua configuração e seus dados. Os IDs registrados na sessão original são inventário, não constantes do projeto.
+Antes de cada criação, consulte `get_chart_type_schema`, use os campos aceitos e crie um único objeto por etapa. Depois consulte sua configuração e seus dados. Os IDs retornados são específicos da instalação, não constantes do projeto.
 
 ## Problemas e diagnóstico
 

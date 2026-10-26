@@ -9,7 +9,7 @@ Há duas opções que não devem ser confundidas:
 | Aula original | `docker-compose.yml` | 5434 | instalação existente | instalação existente |
 | Laboratório completo isolado | `docker-compose.demo.yml`, projeto `vendas-demo` | 15434 | 18888 | 15008 |
 
-O laboratório isolado não reutiliza o dataset 22 ou o dashboard 10 da sessão original. Os IDs surgirão na nova instalação. Não copie IDs sem redescobrir os objetos.
+Os IDs dos objetos são específicos de cada instalação. Consulte os objetos existentes antes de cadastrar novos recursos.
 
 ## 2. Instale dependências do projeto
 
@@ -82,7 +82,7 @@ Dentro da rede Docker, `postgres:5432` aponta para o DW. No Python executado no 
 
 No SQL Lab, execute [03_dataset_analitico.sql](../sql/03_dataset_analitico.sql), confira as colunas e salve uma única vez como **Dataset Analítico de Vendas** no schema `gold`. Se o dataset já existir, reutilize-o. Cadastre `ticket_medio` na aba Metrics com expressão `SUM(valor_total) / COUNT(DISTINCT id_venda)`, nome de exibição **Ticket Médio** e descrição **Valor médio faturado por venda**.
 
-Essa etapa é manual porque o MCP observado não ofereceu ferramenta explícita para adicionar métricas a datasets. A instalação isolada não recebe automaticamente os objetos da sessão original.
+Essa etapa é manual porque a interface MCP utilizada não oferece ferramenta explícita para adicionar métricas a datasets. Cada instalação precisa ter seus próprios objetos configurados.
 
 ## 7. Conecte o Codex
 

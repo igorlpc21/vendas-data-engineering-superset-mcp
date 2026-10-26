@@ -4,7 +4,7 @@
 
 O objetivo é tornar um caso de BI inspecionável: a mesma fonte alimenta as camadas, as métricas e as validações. O laboratório usa PostgreSQL para todas as camadas. Os notebooks preservam o raciocínio didático; os scripts fornecem uma trilha operacional repetível.
 
-O Compose original permanece disponível. A stack `vendas-demo` possui volume, portas e banco de metadados próprios para evitar dependência do ambiente já utilizado na conversa.
+O Compose original permanece disponível. A stack `vendas-demo` possui volume, portas e banco de metadados próprios para isolar o laboratório de outras instalações locais.
 
 ## Grão e modelo dimensional
 
