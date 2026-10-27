@@ -24,6 +24,24 @@ As camadas são schemas do PostgreSQL. Os notebooks apresentam a trilha didátic
 
 Os dados são sintéticos. Cada linha representa uma venda de um produto, com sua quantidade.
 
+## Dashboard no Apache Superset
+
+Capturas reais do dashboard com os dados sintéticos do projeto.
+
+**Indicadores de vendas:** faturamento total, vendas distintas, ticket médio e itens vendidos.
+
+![KPIs de faturamento, total de vendas, ticket médio e itens vendidos](docs/imagens/dashboard-kpis.png)
+
+**Evolução e categorias:** série de faturamento e comparação entre categorias de produtos.
+
+![Evolução mensal do faturamento e faturamento por categoria](docs/imagens/dashboard-evolucao-categorias.png)
+
+**Regiões, produtos e pagamentos:** comparação de faturamento e participação das formas de pagamento.
+
+![Faturamento por região, produtos e vendas por forma de pagamento](docs/imagens/dashboard-regioes-produtos-pagamentos.png)
+
+As capturas preservam a apresentação original do Superset, incluindo seus separadores numéricos. Elas documentam a aparência dos visuais; os critérios de agregação e ordenação estão descritos na [documentação do dashboard](docs/dashboard.md).
+
 ## Instalação
 
 Pré-requisitos: Python 3.11 ou 3.12 e Docker com Compose. O Superset utiliza ambiente separado nos containers.

@@ -73,4 +73,14 @@ A presença de `P1M` na configuração não comprova a agregação mensal: confi
 
 O schema consultado não expõe tamanho de fonte de Big Number, tamanho de subtítulo ou configuração específica de BRL. Para barras, orientação e limite estão disponíveis, mas ordenação e rótulos podem depender da interface visual e da versão instalada.
 
-Não há screenshots ou export nativo importável do dashboard neste repositório. A configuração dos objetos no Superset faz parte da instalação.
+## Capturas do dashboard
+
+As imagens fornecidas pelo autor estão preservadas sem alterações:
+
+- [Indicadores de vendas](imagens/dashboard-kpis.png).
+- [Evolução e categorias](imagens/dashboard-evolucao-categorias.png).
+- [Regiões, produtos e pagamentos](imagens/dashboard-regioes-produtos-pagamentos.png).
+
+As capturas documentam a aparência dos visuais e não substituem a validação dos dados retornados, da granularidade temporal ou da ordenação dos produtos.
+
+Não há export nativo importável do dashboard neste repositório. A configuração dos objetos no Superset faz parte da instalação.

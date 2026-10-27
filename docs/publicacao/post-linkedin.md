@@ -24,4 +24,4 @@ Artigo completo: inserir o link após publicar o artigo.
 
 ---
 
-Antes de postar: substituir o marcador do artigo, anexar imagem real e revisar o status das pendências. Nenhuma publicação foi realizada no LinkedIn.
+Antes de postar: substituir o marcador do artigo, selecionar uma das [capturas reais do dashboard](../../README.md#dashboard-no-apache-superset) para anexar e revisar o status das pendências. Nenhuma publicação foi realizada no LinkedIn.
